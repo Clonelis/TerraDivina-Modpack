@@ -7,12 +7,12 @@
   },
   "mods": [
     {
-      "id": "terradivinamenu",
-      "name": "TerraDivina Menu",
-      "version": "1.0.0",
-      "file": "terradivinamenu-1.0.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/terradivinamenu-1.0.0.jar",
-      "sha256": "b8084905149f373bde11f35160c9211428289799e594ff2eb1913603f999350e"
+      "id": "systd",
+      "name": "systd",
+      "version": "1488",
+      "file": "systd-1488.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar",
+      "sha256": "9f1b24e28988a30d437afd03a4658e148b80bff730c49d8564952360ef12d646"
     },
     {
       "id": "mousetweaks",
@@ -60,5 +60,19 @@
       "modrinth": "lithium"
     }
   ],
-  "configFiles": []
+  "configFiles": [],
+  "menu": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.250",
+    "news": [
+      {
+        "title": "TerraDivina Create",
+        "text": "Сборка подключена к обновлениям через GitHub."
+      },
+      {
+        "title": "systd 1488",
+        "text": "Новое главное меню и проверка модов готовы."
+      }
+    ]
+  }
 }

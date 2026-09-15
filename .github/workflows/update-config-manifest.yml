@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - config/**
+      - resourcepacks/**
       - options.txt
       - servers.dat
       - .github/scripts/update-config-manifest.mjs

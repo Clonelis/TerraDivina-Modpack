@@ -7,6 +7,7 @@ const repository = 'Clonelis/TerraDivina-Modpack';
 const branch = 'main';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const configRoot = path.join(root, 'config');
+const resourcepacksRoot = path.join(root, 'resourcepacks');
 const manifestPath = path.join(root, 'manifest.json');
 
 async function collect(directory) {
@@ -22,7 +23,7 @@ async function collect(directory) {
 
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const previous = new Map((manifest.configFiles || []).map(file => [file.path, file]));
-const files = await collect(configRoot);
+const files = [...await collect(configRoot), ...await collect(resourcepacksRoot)];
 const optionsPath = path.join(root, 'options.txt');
 try {
   await access(optionsPath);
