@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "pack": {
+    "name": "TerraDivina | Create",
+    "minecraft": "1.21.1",
+    "loader": "NeoForge"
+  },
+  "mods": [],
+  "configFiles": []
+}
