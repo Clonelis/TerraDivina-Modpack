@@ -5,6 +5,52 @@
     "minecraft": "1.21.1",
     "loader": "NeoForge"
   },
-  "mods": [],
+  "mods": [
+    {
+      "id": "mousetweaks",
+      "name": "Mouse Tweaks",
+      "version": "2.26.1",
+      "file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+      "modrinth": "mouse-tweaks"
+    },
+    {
+      "id": "ferritecore",
+      "name": "FerriteCore",
+      "version": "7.0.3",
+      "file": "ferritecore-7.0.3-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/ferritecore-7.0.3-neoforge.jar",
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "modrinth": "ferrite-core"
+    },
+    {
+      "id": "dynamic_fps",
+      "name": "Dynamic FPS",
+      "version": "3.11.4",
+      "file": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar",
+      "sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
+      "modrinth": "dynamic-fps"
+    },
+    {
+      "id": "badoptimizations",
+      "name": "BadOptimizations",
+      "version": "2.4.1",
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/BadOptimizations-2.4.1-1.21.1.jar",
+      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+      "modrinth": "badoptimizations"
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium",
+      "version": "0.15.4+mc1.21.1",
+      "file": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+      "modrinth": "lithium"
+    }
+  ],
   "configFiles": []
 }
