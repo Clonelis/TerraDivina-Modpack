@@ -28,6 +28,11 @@ try {
   await access(optionsPath);
   files.push(optionsPath);
 } catch {}
+const serversPath = path.join(root, 'servers.dat');
+try {
+  await access(serversPath);
+  files.push(serversPath);
+} catch {}
 manifest.configFiles = await Promise.all(files.sort().map(async file => {
   const relative = path.relative(root, file).replaceAll('\\', '/');
   const encoded = relative.split('/').map(encodeURIComponent).join('/');

@@ -7,6 +7,14 @@
   },
   "mods": [
     {
+      "id": "terradivinamenu",
+      "name": "TerraDivina Menu",
+      "version": "1.0.0",
+      "file": "terradivinamenu-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/terradivinamenu-1.0.0.jar",
+      "sha256": "b8084905149f373bde11f35160c9211428289799e594ff2eb1913603f999350e"
+    },
+    {
       "id": "mousetweaks",
       "name": "Mouse Tweaks",
       "version": "2.26.1",

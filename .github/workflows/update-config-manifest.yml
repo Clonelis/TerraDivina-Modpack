@@ -6,6 +6,7 @@ on:
     paths:
       - config/**
       - options.txt
+      - servers.dat
       - .github/scripts/update-config-manifest.mjs
       - .github/workflows/update-config-manifest.yml
   workflow_dispatch:
