@@ -1069,7 +1069,7 @@
     {
       "path": "config/iris.properties",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/iris.properties",
-      "sha256": "e2c1ebb93d1bbf23cd90c4f03a1cc5100721a4f07fc0b748e9f1418eccc4ba67",
+      "sha256": "08be4c39692957374225a108e6fb70db7fb09dbf34f312d0d01830bb6dd798f3",
       "overwrite": true
     },
     {
@@ -1111,7 +1111,7 @@
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/jei/ingredient-list-mod-sort-order.ini",
-      "sha256": "53e6116c7c8ad74b50d00b9a8b025f364a943a78e679406fd19ada05a9ea740a",
+      "sha256": "052a1f86b96ce11e3acc8e4ab5f27260417a7cd280fca6bf0391812d1a7f2605",
       "overwrite": true
     },
     {
@@ -1525,13 +1525,19 @@
     {
       "path": "options.txt",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/options.txt",
-      "sha256": "1d420e31d76b32ceceffe307e24043a2e10c913bcd3a39326b6bba6e1bf7d6a3",
+      "sha256": "531d09342fbf595ffad884434022688659fc818297c04946f17690c9b1c21044",
       "overwrite": true
     },
     {
       "path": "resourcepacks/Default-Dark-Mode-1.20.2+-2025.5.0.zip",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/Default-Dark-Mode-1.20.2%2B-2025.5.0.zip",
       "sha256": "3f168a0a354a4f703ebc22b0bf011df4f2211b3e8b4b561e527c699bb7356ab2",
+      "overwrite": true
+    },
+    {
+      "path": "servers.dat",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/servers.dat",
+      "sha256": "2692a955e152476765d8835baff85e49997439d0404bdf523b5c2643d7c6d43e",
       "overwrite": true
     }
   ],
