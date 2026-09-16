@@ -1313,12 +1313,6 @@
       "overwrite": true
     },
     {
-      "path": "config/sodium-fingerprint.json",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sodium-fingerprint.json",
-      "sha256": "9c2b9617ab0d520955d341cd95e25bb8a7aa65e3ad5ebaba4e1498266ae8503a",
-      "overwrite": true
-    },
-    {
       "path": "config/sodium-mixins.properties",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sodium-mixins.properties",
       "sha256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",

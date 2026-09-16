@@ -16,7 +16,7 @@ async function collect(directory) {
   for (const entry of entries) {
     const target = path.join(directory, entry.name);
     if (entry.isDirectory()) files.push(...await collect(target));
-    if (entry.isFile() && entry.name !== '.gitkeep') files.push(target);
+    if (entry.isFile() && entry.name !== '.gitkeep' && entry.name !== 'sodium-fingerprint.json') files.push(target);
   }
   return files;
 }
