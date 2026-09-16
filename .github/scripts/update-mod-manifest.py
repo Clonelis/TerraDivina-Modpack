@@ -43,6 +43,9 @@ def update(root):
                 mod.pop('modId', None)
             if not declaration:
                 mod['library'] = True
+            website = declaration.get('displayURL') or metadata.get('displayURL')
+            if not mod.get('pageUrl') and isinstance(website, str) and website.startswith('https://'):
+                mod['pageUrl'] = website
             logo = declaration.get('logoFile')
             if logo and logo in names and not mod.get('iconUrl'):
                 extension = Path(logo).suffix.lower()
