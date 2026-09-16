@@ -247,6 +247,15 @@
       "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9"
     },
     {
+      "id": "createbigcannons__fe7bd6b01708",
+      "name": "Create Big Cannons",
+      "version": "5.11.3",
+      "file": "createbigcannons-5.11.3-dev-mc.1.21.1-build.276.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.276.jar",
+      "sha256": "fe7bd6b0170859d722f0c527b48c70966ea32662940370aec40c55068f27183b",
+      "modId": "createbigcannons"
+    },
+    {
       "id": "createbigcannons",
       "name": "Create Big Cannons",
       "version": "5.11.7",
@@ -381,6 +390,15 @@
       "file": "konkrete_neoforge_1.9.9_MC_1.21.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
       "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd"
+    },
+    {
+      "id": "kotlinforforge",
+      "name": "Kotlin for Forge",
+      "version": "5.12.0",
+      "file": "kotlinforforge-5.12.0-all.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/kotlinforforge-5.12.0-all.jar",
+      "sha256": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
+      "library": true
     },
     {
       "id": "kubejs_create",
@@ -527,6 +545,24 @@
       "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
     },
     {
+      "id": "rocketnautics__511f0b9398e2",
+      "name": "Create: Rocketnautics",
+      "version": "1.3.2",
+      "file": "rocketnautics-1.3.3.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/rocketnautics-1.3.3.jar",
+      "sha256": "511f0b9398e269f2d36e2c5fe025c6e369a220cfa108a20abd10cdf52bf6807f",
+      "modId": "rocketnautics"
+    },
+    {
+      "id": "sable_player_ragdoll__f6455694afa0",
+      "name": "Sable Ragdolls",
+      "version": "0.7.0",
+      "file": "sable_player_ragdoll-1.21.1-0.7.0.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable_player_ragdoll-1.21.1-0.7.0.jar",
+      "sha256": "f6455694afa0f0ce2bc72ff2c64b8d3218006a9127e1343bc43c82a312582653",
+      "modId": "sable_player_ragdoll"
+    },
+    {
       "id": "sable_player_ragdoll",
       "name": "Sable Ragdolls",
       "version": "0.7.5",
@@ -604,7 +640,7 @@
       "version": "1488",
       "file": "systd-1488.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar",
-      "sha256": "40c2cfb10b9d6252b26aef730f4fd21d62b8ae50aa1ad298c779bb70e4f0bdf3"
+      "sha256": "30d1036baaab75f7453cf9d65f3c040ad0949353e94f0ca3cad926252dd15d3d"
     },
     {
       "id": "terralith",
@@ -621,6 +657,15 @@
       "file": "tracks_plus-1.0.5.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/tracks_plus-1.0.5.jar",
       "sha256": "b2a8cb466cfce2cbf0078e713ae0500c332aed95b4e1819d17e3539282d8515b"
+    },
+    {
+      "id": "tracks__b126b2522a12",
+      "name": "Create Tracks",
+      "version": "1.0.1",
+      "file": "tracks-neoforge-1.21.1-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/tracks-neoforge-1.21.1-1.0.1.jar",
+      "sha256": "b126b2522a129c13ebec6491b8602726bad9a3df201cf906468ba583796125c8",
+      "modId": "tracks"
     },
     {
       "id": "voicechat",
@@ -653,15 +698,6 @@
       "file": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa"
-    },
-    {
-      "id": "kotlinforforge",
-      "name": "Kotlin for Forge",
-      "version": "5.12.0",
-      "file": "kotlinforforge-5.12.0-all.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/kotlinforforge-5.12.0-all.jar",
-      "sha256": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
-      "library": true
     }
   ],
   "configFiles": [
@@ -1359,6 +1395,60 @@
       "path": "config/xaeropatreon.txt",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/xaeropatreon.txt",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/README.txt",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/README.txt",
+      "sha256": "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/block/example_block.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/assets/kubejs/textures/block/example_block.png",
+      "sha256": "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/assets/kubejs/textures/item/example_item.png",
+      "sha256": "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/client_scripts/main.js",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/client_scripts/main.js",
+      "sha256": "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/config/client.json",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/config/client.json",
+      "sha256": "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/config/common.json",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/config/common.json",
+      "sha256": "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/config/web_server.json",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/config/web_server.json",
+      "sha256": "43756c0ea2e0cbd2a463e323cfa3abc31d3dbc61339d8461be028e2e82d9a840",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/server_scripts/main.js",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/server_scripts/main.js",
+      "sha256": "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f",
+      "overwrite": true
+    },
+    {
+      "path": "kubejs/startup_scripts/main.js",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/kubejs/startup_scripts/main.js",
+      "sha256": "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe",
       "overwrite": true
     },
     {

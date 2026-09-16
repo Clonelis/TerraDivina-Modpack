@@ -6,6 +6,7 @@ on:
     paths:
       - config/**
       - resourcepacks/**
+      - kubejs/**
       - options.txt
       - servers.dat
       - .github/scripts/update-config-manifest.mjs
