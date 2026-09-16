@@ -1,0 +1,10 @@
+{
+  "fixInventoryBlocks": true,
+  "fixBlockPopResource": true,
+  "fixAttachments": true,
+  "fixTableClothDupe": true,
+  "fixChainConveyorDupe": true,
+  "fixCBCSableCompat": true,
+  "checkForUpdates": true,
+  "enableLogging": false
+}

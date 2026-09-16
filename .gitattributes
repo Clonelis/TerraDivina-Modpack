@@ -1,0 +1,5 @@
+mods/** -text
+config/** -text
+resourcepacks/** -text
+options.txt -text
+servers.dat -text
