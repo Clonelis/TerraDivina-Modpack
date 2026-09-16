@@ -7,6 +7,7 @@ on:
       - config/**
       - mods/**
       - resourcepacks/**
+      - assets/menu-background.png
       - options.txt
       - servers.dat
       - .github/scripts/update-config-manifest.mjs

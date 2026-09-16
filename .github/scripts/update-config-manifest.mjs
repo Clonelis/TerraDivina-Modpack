@@ -22,6 +22,18 @@ async function collect(directory) {
 }
 
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+const backgroundPath = path.join(root, 'assets', 'menu-background.png');
+try {
+  const image = await readFile(backgroundPath);
+  manifest.menu ??= {};
+  manifest.menu.background = {
+    url: `https://raw.githubusercontent.com/${repository}/${branch}/assets/menu-background.png`,
+    sha256: createHash('sha256').update(image).digest('hex'),
+    blur: manifest.menu.background?.blur ?? 3
+  };
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
 const previous = new Map((manifest.configFiles || []).map(file => [file.path, file]));
 const files = [...await collect(configRoot), ...await collect(resourcepacksRoot)];
 const optionsPath = path.join(root, 'options.txt');

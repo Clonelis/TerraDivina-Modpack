@@ -773,7 +773,7 @@
       "version": "1488",
       "file": "systd-1488.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar",
-      "sha256": "45c98e124aab5d98538078ef8da707626d57ff1b20269916d06896fa4f38c1da"
+      "sha256": "f8ff09d142f396db9af4b9920fbb205d91425f32e14714c2f56c568ee7ac7d28"
     },
     {
       "id": "tracks",
@@ -1543,6 +1543,11 @@
         "title": "Бета тест лаунчера",
         "text": "Возможны проблемы, если такие появились — пишите в [дискорд](https://discord.gg/svTjpPHJqq)."
       }
-    ]
+    ],
+    "background": {
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/assets/menu-background.png",
+      "sha256": "d09498c1212655a3acd6e8a598bd959c8ba8bd1188b3510ea9bd7cf7e4db55d7",
+      "blur": 3
+    }
   }
 }
