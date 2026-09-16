@@ -180,6 +180,42 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createcasing.png"
     },
     {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.10",
+      "file": "create-1.21.1-6.0.10.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create.png"
+    },
+    {
+      "id": "aeronautics_bundled",
+      "name": "Create Aeronautics",
+      "version": "1.3.0",
+      "file": "create-aeronautics-bundled-1.21.1-1.3.0.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-aeronautics-bundled-1.21.1-1.3.0.jar",
+      "sha256": "482c90e0e6fe72f33fe7abb079e5fda581cd660ee53c38c44448a64283e1044c",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/aeronautics_bundled.png"
+    },
+    {
+      "id": "cgs",
+      "name": "Create: Gunsmithing",
+      "version": "1.4.9",
+      "file": "create-gunsmithing-1.21.1-1.4.9.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-gunsmithing-1.21.1-1.4.9.jar",
+      "sha256": "d9e00c7e9cc5dec11455d42dd0f6d78418ce2213c4740ca8bec6b1e0e73adf1d",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/cgs.png"
+    },
+    {
+      "id": "create_new_age",
+      "name": "Create: New Age",
+      "version": "1.2.0+mc1.21.1",
+      "file": "create-new-age-1.2.0+neoforge-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar",
+      "sha256": "a217ea21ccc8364e99d86777e519436bc7c94516df9737ad0103047e48a44717",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create_new_age.png"
+    },
+    {
       "id": "create_aeronautics_toolgun",
       "name": "Create Aeronautics: Toolgun",
       "version": "0.3.2",
@@ -236,42 +272,6 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create_tweaked_controllers.png"
     },
     {
-      "id": "create",
-      "name": "Create",
-      "version": "6.0.10",
-      "file": "create-1.21.1-6.0.10.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-1.21.1-6.0.10.jar",
-      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create.png"
-    },
-    {
-      "id": "aeronautics_bundled",
-      "name": "Create Aeronautics",
-      "version": "1.3.0",
-      "file": "create-aeronautics-bundled-1.21.1-1.3.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-aeronautics-bundled-1.21.1-1.3.0.jar",
-      "sha256": "482c90e0e6fe72f33fe7abb079e5fda581cd660ee53c38c44448a64283e1044c",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/aeronautics_bundled.png"
-    },
-    {
-      "id": "cgs",
-      "name": "Create: Gunsmithing",
-      "version": "1.4.9",
-      "file": "create-gunsmithing-1.21.1-1.4.9.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-gunsmithing-1.21.1-1.4.9.jar",
-      "sha256": "d9e00c7e9cc5dec11455d42dd0f6d78418ce2213c4740ca8bec6b1e0e73adf1d",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/cgs.png"
-    },
-    {
-      "id": "create_new_age",
-      "name": "Create: New Age",
-      "version": "1.2.0+mc1.21.1",
-      "file": "create-new-age-1.2.0+neoforge-mc1.21.1.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar",
-      "sha256": "a217ea21ccc8364e99d86777e519436bc7c94516df9737ad0103047e48a44717",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create_new_age.png"
-    },
-    {
       "id": "createaddition",
       "name": "Create Crafts & Additions",
       "version": "1.6.0",
@@ -281,23 +281,23 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createaddition.png"
     },
     {
-      "id": "createbigcannons__fe7bd6b01708",
+      "id": "createbigcannons",
       "name": "Create Big Cannons",
       "version": "5.11.3",
       "file": "createbigcannons-5.11.3-dev-mc.1.21.1-build.276.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.276.jar",
       "sha256": "fe7bd6b0170859d722f0c527b48c70966ea32662940370aec40c55068f27183b",
-      "modId": "createbigcannons",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createbigcannons__fe7bd6b01708.png"
     },
     {
-      "id": "createbigcannons",
+      "id": "createbigcannons__ea017ab94637",
       "name": "Create Big Cannons",
       "version": "5.11.7",
       "file": "createbigcannons-5.11.7+mc.1.21.1.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
       "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createbigcannons.png"
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createbigcannons.png",
+      "modId": "createbigcannons"
     },
     {
       "id": "createdieselgenerators",
@@ -632,23 +632,32 @@
       "modId": "rocketnautics"
     },
     {
-      "id": "sable_player_ragdoll__f6455694afa0",
+      "id": "sable",
+      "name": "Sable",
+      "version": "2.0.3",
+      "file": "sable-neoforge-1.21.1-2.0.3.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable-neoforge-1.21.1-2.0.3.jar",
+      "sha256": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable.png"
+    },
+    {
+      "id": "sable_player_ragdoll",
       "name": "Sable Ragdolls",
       "version": "0.7.0",
       "file": "sable_player_ragdoll-1.21.1-0.7.0.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable_player_ragdoll-1.21.1-0.7.0.jar",
       "sha256": "f6455694afa0f0ce2bc72ff2c64b8d3218006a9127e1343bc43c82a312582653",
-      "modId": "sable_player_ragdoll",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_player_ragdoll__f6455694afa0.png"
     },
     {
-      "id": "sable_player_ragdoll",
+      "id": "sable_player_ragdoll__69611deff1c2",
       "name": "Sable Ragdolls",
       "version": "0.7.5",
       "file": "sable_player_ragdoll-1.21.1-0.7.5.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
       "sha256": "69611deff1c2b18ae0ae7dbaea24cc14f4b69f0368297653933ae9b33adf2d2b",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_player_ragdoll.png"
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_player_ragdoll.png",
+      "modId": "sable_player_ragdoll"
     },
     {
       "id": "sable_xaero_bridge",
@@ -658,15 +667,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable_xaero_bridge-0.1.11.jar",
       "sha256": "6e742003c27d94d49c6326ff2018655ca87585936ee32e9042d0badc1cdc9bf4",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_xaero_bridge.png"
-    },
-    {
-      "id": "sable",
-      "name": "Sable",
-      "version": "2.0.3",
-      "file": "sable-neoforge-1.21.1-2.0.3.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/sable-neoforge-1.21.1-2.0.3.jar",
-      "sha256": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable.png"
     },
     {
       "id": "sodium",
@@ -682,7 +682,7 @@
       "name": "spur_recipe_mod",
       "version": "1.0.0",
       "file": "spur_recipe_mod-1.0.0-neoforge-1.21.1(2).jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/spur_recipe_mod-1.0.0-neoforge-1.21.1(2).jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/spur_recipe_mod-1.0.0-neoforge-1.21.1%282%29.jar",
       "sha256": "21d089735a72328ecf0880d139dee6f58c73aeca386c23b42db596107bd67617"
     },
     {
@@ -739,24 +739,24 @@
     },
     {
       "id": "tracks",
-      "name": "Create Tracks+",
-      "version": "1.0.5",
-      "file": "tracks_plus-1.0.5.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/tracks_plus-1.0.5.jar",
-      "sha256": "b2a8cb466cfce2cbf0078e713ae0500c332aed95b4e1819d17e3539282d8515b",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/tracks.png"
-    },
-    {
-      "id": "tracks__b126b2522a12",
       "name": "Create Tracks",
       "version": "1.0.1",
       "file": "tracks-neoforge-1.21.1-1.0.1.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/tracks-neoforge-1.21.1-1.0.1.jar",
       "sha256": "b126b2522a129c13ebec6491b8602726bad9a3df201cf906468ba583796125c8",
-      "modId": "tracks",
       "modrinth": "iPv9VoMI",
       "pageUrl": "https://modrinth.com/mod/create-tracks",
       "iconUrl": "https://cdn.modrinth.com/data/iPv9VoMI/f47373b8c2634d1efdf095470435eae3c0d80e37_96.webp"
+    },
+    {
+      "id": "tracks__b2a8cb466cfc",
+      "name": "Create Tracks+",
+      "version": "1.0.5",
+      "file": "tracks_plus-1.0.5.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/tracks_plus-1.0.5.jar",
+      "sha256": "b2a8cb466cfce2cbf0078e713ae0500c332aed95b4e1819d17e3539282d8515b",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/tracks.png",
+      "modId": "tracks"
     },
     {
       "id": "voicechat",
