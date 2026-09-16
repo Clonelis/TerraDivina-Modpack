@@ -1,6 +1,5 @@
 mods/** -text
 config/** -text
 resourcepacks/** -text
-kubejs/** -text
 options.txt -text
 servers.dat -text
