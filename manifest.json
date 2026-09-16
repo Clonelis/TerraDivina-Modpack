@@ -7,6 +7,110 @@
   },
   "mods": [
     {
+      "id": "badoptimizations",
+      "name": "BadOptimizations",
+      "version": "2.4.1",
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/BadOptimizations-2.4.1-1.21.1.jar",
+      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/badoptimizations.png"
+    },
+    {
+      "id": "cbc_enhanced_shells",
+      "name": "CBC Enhanced Shells",
+      "version": "1.2.2",
+      "file": "CBCmoreshells-1.2.2.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/CBCmoreshells-1.2.2.jar",
+      "sha256": "5199cb51628cb31204f6fbfc5627f50446b0419f91c3b2d90eb941dd5341b8fd"
+    },
+    {
+      "id": "chunky",
+      "name": "Chunky",
+      "version": "1.4.23",
+      "file": "Chunky-NeoForge-1.4.23.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Chunky-NeoForge-1.4.23.jar",
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/chunky.png",
+      "pageUrl": "https://github.com/pop4959/Chunky"
+    },
+    {
+      "id": "createcasing",
+      "name": "Create Encased",
+      "version": "1.9.0-ht3",
+      "file": "Create Encased-1.21.1-1.9.0-ht3.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Create%20Encased-1.21.1-1.9.0-ht3.jar",
+      "sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createcasing.png"
+    },
+    {
+      "id": "numismatics",
+      "name": "Create: Numismatics",
+      "version": "1.1.0+neoforge-mc1.21.1",
+      "file": "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/CreateNumismatics-1.1.0%2Bneoforge-mc1.21.1.jar",
+      "sha256": "d33a33b46f923462ae6806a024851afaefa473ced0e95bf405f8ebc13abce767",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/numismatics.png"
+    },
+    {
+      "id": "dndecor",
+      "name": "Design n' Decor",
+      "version": "2.2b",
+      "file": "Design-n-Decor-1.21.1-2.2b.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Design-n-Decor-1.21.1-2.2b.jar",
+      "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/dndecor.png",
+      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor"
+    },
+    {
+      "id": "farmersdelight",
+      "name": "Farmer's Delight",
+      "version": "1.3.4",
+      "file": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/FarmersDelight-1.21.1-1.3.4.jar",
+      "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/farmersdelight.png",
+      "pageUrl": "https://github.com/vectorwing/FarmersDelight"
+    },
+    {
+      "id": "jade",
+      "name": "Jade",
+      "version": "15.10.5+neoforge",
+      "file": "Jade-1.21.1-NeoForge-15.10.5.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/jade.png",
+      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/jade"
+    },
+    {
+      "id": "mousetweaks",
+      "name": "Mouse Tweaks",
+      "version": "2.26.1",
+      "file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/mousetweaks.png",
+      "pageUrl": "https://minecraft.curseforge.com/projects/mouse-tweaks"
+    },
+    {
+      "id": "terralith",
+      "name": "Terralith",
+      "version": "2.6.2",
+      "file": "Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/terralith.png",
+      "pageUrl": "https://www.stardustlabs.net/"
+    },
+    {
+      "id": "vsfluidlink",
+      "name": "VS Sable Hose Connectors",
+      "version": "0.1.8",
+      "file": "VS-Sable-HoseConnectors-0.1.8-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/VS-Sable-HoseConnectors-0.1.8-1.21.1.jar",
+      "sha256": "32bc4b03b086646185548925b4f4044054031df99d1368546186de64e5a71a63",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/vsfluidlink.png"
+    },
+    {
       "id": "aero_cam_sync",
       "name": "Aeronautics Camera Sync",
       "version": "1.4.0",
@@ -52,15 +156,6 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/architectury.png"
     },
     {
-      "id": "badoptimizations",
-      "name": "BadOptimizations",
-      "version": "2.4.1",
-      "file": "BadOptimizations-2.4.1-1.21.1.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/BadOptimizations-2.4.1-1.21.1.jar",
-      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/badoptimizations.png"
-    },
-    {
       "id": "betteradvancedtooltips",
       "name": "Better Advanced Tooltips",
       "version": "2101.1.0-build.5",
@@ -86,24 +181,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/cbc_compact_mount-1.2.2.jar",
       "sha256": "618e8cfc47bb0c70e09b5748913a48016532e9de104319d94b353ba434156474",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/cbc_compact_mount.png"
-    },
-    {
-      "id": "cbc_enhanced_shells",
-      "name": "CBC Enhanced Shells",
-      "version": "1.2.2",
-      "file": "CBCmoreshells-1.2.2.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/CBCmoreshells-1.2.2.jar",
-      "sha256": "5199cb51628cb31204f6fbfc5627f50446b0419f91c3b2d90eb941dd5341b8fd"
-    },
-    {
-      "id": "chunky",
-      "name": "Chunky",
-      "version": "1.4.23",
-      "file": "Chunky-NeoForge-1.4.23.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Chunky-NeoForge-1.4.23.jar",
-      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/chunky.png",
-      "pageUrl": "https://github.com/pop4959/Chunky"
     },
     {
       "id": "cloth_config",
@@ -176,15 +253,6 @@
       "modrinth": "rzqxJXfo",
       "pageUrl": "https://modrinth.com/mod/cosmonautics-deep-air",
       "iconUrl": "https://cdn.modrinth.com/data/rzqxJXfo/c84c8be45740992399f41bc02ddb53c62cb340ca_96.webp"
-    },
-    {
-      "id": "createcasing",
-      "name": "Create Encased",
-      "version": "1.9.0-ht3",
-      "file": "Create Encased-1.21.1-1.9.0-ht3.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Create%20Encased-1.21.1-1.9.0-ht3.jar",
-      "sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createcasing.png"
     },
     {
       "id": "create",
@@ -332,15 +400,6 @@
       "iconUrl": "https://cdn.modrinth.com/data/wtW8g4TG/5798aa8abaf160292075ecff90fe59af4eb4a443_96.webp"
     },
     {
-      "id": "numismatics",
-      "name": "Create: Numismatics",
-      "version": "1.1.0+neoforge-mc1.21.1",
-      "file": "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/CreateNumismatics-1.1.0%2Bneoforge-mc1.21.1.jar",
-      "sha256": "d33a33b46f923462ae6806a024851afaefa473ced0e95bf405f8ebc13abce767",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/numismatics.png"
-    },
-    {
       "id": "createpropulsion",
       "name": "Create Propulsion: Simulated",
       "version": "1.1.5",
@@ -349,16 +408,6 @@
       "sha256": "5525a3a0c8b1c476cbc467d021e9d1492b58c78de31ed269eb04f169d42db0a1",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createpropulsion.png",
       "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/create-propulsion-simulated"
-    },
-    {
-      "id": "dndecor",
-      "name": "Design n' Decor",
-      "version": "2.2b",
-      "file": "Design-n-Decor-1.21.1-2.2b.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Design-n-Decor-1.21.1-2.2b.jar",
-      "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/dndecor.png",
-      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor"
     },
     {
       "id": "dynamic_fps",
@@ -379,16 +428,6 @@
       "sha256": "2eacd2bada39bf1d1ef695736646790c619c0e6cdeaf3d7e3cfc9139d26fae02",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/entityculling.png",
       "pageUrl": "https://modrinth.com/mod/entityculling"
-    },
-    {
-      "id": "farmersdelight",
-      "name": "Farmer's Delight",
-      "version": "1.3.4",
-      "file": "FarmersDelight-1.21.1-1.3.4.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/FarmersDelight-1.21.1-1.3.4.jar",
-      "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/farmersdelight.png",
-      "pageUrl": "https://github.com/vectorwing/FarmersDelight"
     },
     {
       "id": "ferritecore",
@@ -426,16 +465,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
       "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/iris.png"
-    },
-    {
-      "id": "jade",
-      "name": "Jade",
-      "version": "15.10.5+neoforge",
-      "file": "Jade-1.21.1-NeoForge-15.10.5.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Jade-1.21.1-NeoForge-15.10.5.jar",
-      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/jade.png",
-      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/jade"
     },
     {
       "id": "jei",
@@ -572,16 +601,6 @@
       "sha256": "a086b2157458e8e1214232a52a2a92924481fd3fd6620a61a4f23373b557e791",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/moreculling.png",
       "pageUrl": "https://modrinth.com/mod/moreculling"
-    },
-    {
-      "id": "mousetweaks",
-      "name": "Mouse Tweaks",
-      "version": "2.26.1",
-      "file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
-      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/mousetweaks.png",
-      "pageUrl": "https://minecraft.curseforge.com/projects/mouse-tweaks"
     },
     {
       "id": "ntgl",
@@ -757,16 +776,6 @@
       "sha256": "6f28a331fd3d2609f403edd60c9cea04ca878a2b9d40dc6b706ea77cea71455b"
     },
     {
-      "id": "terralith",
-      "name": "Terralith",
-      "version": "2.6.2",
-      "file": "Terralith_1.21.1_v2.6.2_Neoforge.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
-      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/terralith.png",
-      "pageUrl": "https://www.stardustlabs.net/"
-    },
-    {
       "id": "tracks",
       "name": "Create Tracks",
       "version": "1.0.1",
@@ -796,15 +805,6 @@
       "sha256": "901c4917960ce975cecc9a39c15d32c22beabc23ed3c36f0ce75df5a6cdd9366",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/voicechat.png",
       "pageUrl": "https://modrepo.de/minecraft/voicechat/overview"
-    },
-    {
-      "id": "vsfluidlink",
-      "name": "VS Sable Hose Connectors",
-      "version": "0.1.8",
-      "file": "VS-Sable-HoseConnectors-0.1.8-1.21.1.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/VS-Sable-HoseConnectors-0.1.8-1.21.1.jar",
-      "sha256": "32bc4b03b086646185548925b4f4044054031df99d1368546186de64e5a71a63",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/vsfluidlink.png"
     },
     {
       "id": "xaerominimap",
