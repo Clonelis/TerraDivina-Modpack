@@ -1549,5 +1549,11 @@
       "sha256": "d09498c1212655a3acd6e8a598bd959c8ba8bd1188b3510ea9bd7cf7e4db55d7",
       "blur": 3
     }
+  },
+  "launcher": {
+    "minimumVersion": "1.3.7",
+    "latestVersion": "1.3.7",
+    "blockedVersions": [],
+    "removeBlocked": true
   }
 }
