@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 import re
 import sys
 import tomllib
@@ -37,6 +38,14 @@ def update(root):
                    'version': str(version), 'file': jar.name,
                    'url': f'https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/{quote(jar.name, safe="")}',
                    'sha256': sha256}
+            revision = os.environ.get('GITHUB_SHA', '')
+            pinned_url = old.get('url', '')
+            if old.get('sha256') == sha256 and re.fullmatch(r'https://raw\.githubusercontent\.com/Clonelis/TerraDivina-Modpack/[a-f0-9]{40}/mods/[^?]+', pinned_url):
+                mod['url'] = pinned_url
+            elif re.fullmatch(r'[a-f0-9]{40}', revision):
+                mod['url'] = f'https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/{revision}/mods/{quote(jar.name, safe="")}'
+            else:
+                mod['url'] += f'?sha256={sha256}'
             if unique_id != mod_id:
                 mod['modId'] = mod_id
             else:
