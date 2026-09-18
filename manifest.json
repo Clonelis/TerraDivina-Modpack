@@ -1404,7 +1404,7 @@
     },
     {
       "path": "config/voicechat/voicechat-client.properties",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/06c119522aa1a1813a36c1657434109555de5c6f/config/voicechat/voicechat-client.properties",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/voicechat/voicechat-client.properties",
       "sha256": "40149dc73f15d68d3438660634b66334b701eb64608f323946a1c4625fb07f61",
       "overwrite": true
     },
