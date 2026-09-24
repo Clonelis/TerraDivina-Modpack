@@ -1321,7 +1321,7 @@
     {
       "path": "config/sodium-options.json",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sodium-options.json",
-      "sha256": "8ddaee38994c33a20cdc6e3bcf8f6ce349749caef5da9946d50b093759556ac0",
+      "sha256": "a119a5ce46a0c6356b7b1861746bc8fbc33f074cd603a83ed6ceda70743964ff",
       "overwrite": true
     },
     {
