@@ -1069,7 +1069,7 @@
     {
       "path": "config/iris.properties",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/iris.properties",
-      "sha256": "08be4c39692957374225a108e6fb70db7fb09dbf34f312d0d01830bb6dd798f3",
+      "sha256": "d49b54e9dc8aa9a453709e963ac4e07f6a60844ddef87bc46167944b89a7fff2",
       "overwrite": true
     },
     {
@@ -1321,7 +1321,7 @@
     {
       "path": "config/sodium-options.json",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sodium-options.json",
-      "sha256": "a119a5ce46a0c6356b7b1861746bc8fbc33f074cd603a83ed6ceda70743964ff",
+      "sha256": "92805f86b53d1a06adc16aec923492ab624ca1dac5800fb9316f529197b8562d",
       "overwrite": true
     },
     {
@@ -1405,7 +1405,7 @@
     {
       "path": "config/voicechat/voicechat-client.properties",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/voicechat/voicechat-client.properties",
-      "sha256": "40149dc73f15d68d3438660634b66334b701eb64608f323946a1c4625fb07f61",
+      "sha256": "0e91510098200a03ce14a6046b262191021d08ea3011d701259a510a66491ce4",
       "overwrite": true
     },
     {
@@ -1519,7 +1519,7 @@
     {
       "path": "options.txt",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/options.txt",
-      "sha256": "531d09342fbf595ffad884434022688659fc818297c04946f17690c9b1c21044",
+      "sha256": "7b026c15885effceb261eb23ea20b1ec7ccd4912e576df97e60bf908118579a6",
       "overwrite": true
     },
     {
