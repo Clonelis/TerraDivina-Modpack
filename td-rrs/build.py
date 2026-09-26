@@ -23,14 +23,14 @@ def add(archive: ZipFile, name: str, content: bytes) -> None:
 with Image.open(SOURCE) as original:
     logo = original.convert("RGBA")
     logo = logo.crop(logo.getbbox())
-    logo.thumbnail((176, 88), Image.Resampling.LANCZOS)
-    canvas = Image.new("RGBA", (176, 88), (0, 0, 0, 0))
-    canvas.alpha_composite(logo, ((176 - logo.width) // 2, (88 - logo.height) // 2))
+    logo.thumbnail((96, 48), Image.Resampling.LANCZOS)
+    canvas = Image.new("RGBA", (96, 48), (0, 0, 0, 0))
+    canvas.alpha_composite(logo, ((96 - logo.width) // 2, (48 - logo.height) // 2))
     image_bytes = io.BytesIO()
     canvas.save(image_bytes, format="PNG", optimize=True)
 
 metadata = {"pack": {"pack_format": 34, "description": "TD RRS | TerraDivina server resources"}}
-font = {"providers": [{"type": "bitmap", "file": "terradivina:font/tab_logo.png", "ascent": 0, "height": 88, "chars": ["\ue000"]}]}
+font = {"providers": [{"type": "bitmap", "file": "terradivina:font/tab_logo.png", "ascent": 0, "height": 48, "chars": ["\ue000"]}]}
 with ZipFile(OUTPUT, "w") as archive:
     add(archive, "pack.mcmeta", json.dumps(metadata, ensure_ascii=False, separators=(",", ":")).encode())
     add(archive, "assets/minecraft/font/default.json", json.dumps(font, ensure_ascii=False, separators=(",", ":")).encode())
