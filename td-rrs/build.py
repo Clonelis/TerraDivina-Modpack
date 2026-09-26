@@ -10,8 +10,17 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT / "source" / "tab-logo-gold.png"
+SOURCE = ROOT / "source" / "tab-logo-soft.png"
 OUTPUT = ROOT / "td-rrs.zip"
+PING_SOURCE = ROOT / "source" / "vanilla-ping"
+PING_COLORS = {
+    (0, 255, 33, 255): (222, 190, 123, 255),
+    (0, 135, 15, 255): (133, 96, 46, 255),
+    (91, 91, 91, 255): (105, 91, 72, 255),
+    (56, 56, 56, 255): (68, 55, 42, 255),
+    (255, 0, 0, 255): (222, 190, 123, 255),
+    (130, 0, 0, 255): (133, 96, 46, 255),
+}
 
 
 def add(archive: ZipFile, name: str, content: bytes) -> None:
@@ -35,6 +44,13 @@ with ZipFile(OUTPUT, "w") as archive:
     add(archive, "pack.mcmeta", json.dumps(metadata, ensure_ascii=False, separators=(",", ":")).encode())
     add(archive, "assets/minecraft/font/default.json", json.dumps(font, ensure_ascii=False, separators=(",", ":")).encode())
     add(archive, "assets/terradivina/textures/font/tab_logo.png", image_bytes.getvalue())
+    for source in sorted(PING_SOURCE.glob("ping_*.png")):
+        with Image.open(source) as original:
+            icon = original.convert("RGBA")
+            icon.putdata([PING_COLORS.get(pixel, pixel) for pixel in icon.getdata()])
+            icon_bytes = io.BytesIO()
+            icon.save(icon_bytes, format="PNG", optimize=True)
+        add(archive, f"assets/minecraft/textures/gui/sprites/icon/{source.name}", icon_bytes.getvalue())
 
 content = OUTPUT.read_bytes()
 print(f"{OUTPUT}: {len(content)} bytes")
