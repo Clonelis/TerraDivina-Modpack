@@ -302,6 +302,15 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create_aeronautics_toolgun.png"
     },
     {
+      "id": "aeronautics_utility_objects",
+      "name": "Create Aeronautics: Transmission & Linkage",
+      "version": "0.2.8",
+      "file": "create_aeronautics_transmission_linkage-0.2.8.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/bbacae9447884046dc0b71e7db54eb73c0ada8ae/mods/create_aeronautics_transmission_linkage-0.2.8.jar",
+      "sha256": "149a68e131440c62a2aae39357dc23cf190d7ec4fb52c0c0b105834988d63596",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/aeronautics_utility_objects.png"
+    },
+    {
       "id": "create_connected",
       "name": "Create: Connected",
       "version": "1.3.2-mc1.21.1",
@@ -359,6 +368,14 @@
       "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/createaddition.png",
       "pageUrl": "https://github.com/mrh0/createaddition"
+    },
+    {
+      "id": "createbetterfrequency",
+      "name": "createbetterfrequency",
+      "version": "1.0.1",
+      "file": "createbetterfrequency-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/bbacae9447884046dc0b71e7db54eb73c0ada8ae/mods/createbetterfrequency-1.0.1.jar",
+      "sha256": "98e661698421524f14a526187ca48c4cc7a5afbef3cce6f6e945c6ed91726d09"
     },
     {
       "id": "createbigcannons",
