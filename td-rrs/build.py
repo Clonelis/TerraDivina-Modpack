@@ -23,9 +23,9 @@ def add(archive: ZipFile, name: str, content: bytes) -> None:
 with Image.open(SOURCE) as original:
     logo = original.convert("RGBA")
     logo = logo.crop(logo.getbbox())
-    logo.thumbnail((384, 192), Image.Resampling.LANCZOS)
-    canvas = Image.new("RGBA", (384, 192), (0, 0, 0, 0))
-    canvas.alpha_composite(logo, ((384 - logo.width) // 2, (192 - logo.height) // 2))
+    logo.thumbnail((256, 128), Image.Resampling.LANCZOS)
+    canvas = Image.new("RGBA", (256, 128), (0, 0, 0, 0))
+    canvas.alpha_composite(logo, ((256 - logo.width) // 2, (128 - logo.height) // 2))
     image_bytes = io.BytesIO()
     canvas.save(image_bytes, format="PNG", optimize=True)
 
