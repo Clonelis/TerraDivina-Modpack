@@ -1506,6 +1506,36 @@
       "overwrite": true
     },
     {
+      "path": "resourcepacks/EnderEyes_26.2_v3.1.zip",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/EnderEyes_26.2_v3.1.zip",
+      "sha256": "daa78feddc084b796c7e8e3d6cc79bc35965272b7c4cd03f56b12e98d68b0cad",
+      "overwrite": true
+    },
+    {
+      "path": "resourcepacks/EvenBetterEnchants_v2_r1.zip",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/EvenBetterEnchants_v2_r1.zip",
+      "sha256": "bf3879bfe3607936248a070037c730082a46556ef2cdfb285e05ac93a88665ea",
+      "overwrite": true
+    },
+    {
+      "path": "resourcepacks/Low Fire.zip",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/Low%20Fire.zip",
+      "sha256": "a761f00a176be2b09ac128e5b9eea9f70c742017ded12fb29b3583d70463193b",
+      "overwrite": true
+    },
+    {
+      "path": "resourcepacks/Midnighttigger's Default Connected Textures.zip",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/Midnighttigger's%20Default%20Connected%20Textures.zip",
+      "sha256": "7d1995b5ca4e4799536fb57c8bbdb1a9c9a30cb860b54cacbf6cc255ea5daec9",
+      "overwrite": true
+    },
+    {
+      "path": "resourcepacks/enchant icons 1.21 v1.3.zip",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/resourcepacks/enchant%20icons%201.21%20v1.3.zip",
+      "sha256": "78cbfc8aa6994e943cf5247906d1160caff00d7e41430225a517c4a5ba731e24",
+      "overwrite": true
+    },
+    {
       "path": "servers.dat",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/servers.dat",
       "sha256": "a5bcd9fbe972a8f0f92fa98616d3cb049e024346c42aa5647651cd4b05832a53",
