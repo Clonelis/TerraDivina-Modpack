@@ -779,8 +779,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/7986c3472836f0f9fa20fbe254ef961712170886/mods/systd-1488.jar",
-      "sha256": "d7f3b7d218207d4115dc68e894123daaa7435e1cc2a157ded767dabb316b8a25"
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar?sha256=81ee51cfc20dcc3b2e3e686fbf56cefe8d9bbd4a88f276ae4e9e596ab86fbc15",
+      "sha256": "81ee51cfc20dcc3b2e3e686fbf56cefe8d9bbd4a88f276ae4e9e596ab86fbc15"
     },
     {
       "id": "tracks",
@@ -1388,7 +1388,7 @@
     {
       "path": "config/voicechat/voicechat-server.properties",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/voicechat/voicechat-server.properties",
-      "sha256": "7ab0846749dc8bf19a37a4df70afa4303cdca6a4aa256a033166dc58816b8428",
+      "sha256": "a8eb90c239bdac65be02bdfe49f48a0aff1b83a22caa79ff1ce126238a63aeed",
       "overwrite": true
     },
     {
