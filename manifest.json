@@ -779,8 +779,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/30a23b67a6f0f1b2a7afd06eae312fbbf5a4b350/mods/systd-1488.jar",
-      "sha256": "9ffde3656fd6d600a6bda57c9a2ce6065a84285c6a3e7d60ae7ac352c90a03a6"
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar?sha256=a9c9ac5c14b80894a6d94c016da724dd25d33047bba06568ce0f07354df1811e",
+      "sha256": "a9c9ac5c14b80894a6d94c016da724dd25d33047bba06568ce0f07354df1811e"
     },
     {
       "id": "tracks",
