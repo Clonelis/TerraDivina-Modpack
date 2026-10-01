@@ -173,6 +173,15 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/cbc_compact_mount.png"
     },
     {
+      "id": "computercraft",
+      "name": "CC: Tweaked",
+      "version": "1.120.2",
+      "file": "cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/dd4fd75b6dcca1f46a7e6670bfe48b7cfa2ff243/mods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
+      "pageUrl": "https://tweaked.cc"
+    },
+    {
       "id": "cloth_config",
       "name": "Cloth Config v15 API",
       "version": "15.0.140",
@@ -299,6 +308,16 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/bbacae9447884046dc0b71e7db54eb73c0ada8ae/mods/create_aeronautics_transmission_linkage-0.2.8.jar",
       "sha256": "149a68e131440c62a2aae39357dc23cf190d7ec4fb52c0c0b105834988d63596",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/aeronautics_utility_objects.png"
+    },
+    {
+      "id": "create_avionics",
+      "name": "Create: Avionics",
+      "version": "0.6.0",
+      "file": "create_avionics-neoforge-1.21.1-0.6.0.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/dd4fd75b6dcca1f46a7e6670bfe48b7cfa2ff243/mods/create_avionics-neoforge-1.21.1-0.6.0.jar",
+      "sha256": "32869cfa71e1339db59bb0edd92f5a8235a524a574ca06d7f26866cb30662d88",
+      "pageUrl": "https://github.com/SolAstrius/CreateAvionics",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/create_avionics.png"
     },
     {
       "id": "create_connected",
@@ -779,7 +798,7 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar?sha256=77a3b2e942ba72554fe1e86e7bda1b0fef2cf2c2be00fe28b2ec1d3d456ed2d1",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/dd4fd75b6dcca1f46a7e6670bfe48b7cfa2ff243/mods/systd-1488.jar",
       "sha256": "77a3b2e942ba72554fe1e86e7bda1b0fef2cf2c2be00fe28b2ec1d3d456ed2d1"
     },
     {
@@ -830,22 +849,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
-    },
-    {
-      "id": "create_avionics",
-      "name": "Create: Avionics",
-      "version": "0.6.0",
-      "file": "create_avionics-neoforge-1.21.1-0.6.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create_avionics-neoforge-1.21.1-0.6.0.jar?sha256=32869cfa71e1339db59bb0edd92f5a8235a524a574ca06d7f26866cb30662d88",
-      "sha256": "32869cfa71e1339db59bb0edd92f5a8235a524a574ca06d7f26866cb30662d88"
-    },
-    {
-      "id": "computercraft",
-      "name": "CC: Tweaked",
-      "version": "1.120.2",
-      "file": "cc-tweaked-1.21.1-forge-1.120.2.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/cc-tweaked-1.21.1-forge-1.120.2.jar?sha256=e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
-      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f"
     }
   ],
   "configFiles": [
