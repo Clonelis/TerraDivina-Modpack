@@ -621,7 +621,7 @@
     },
     {
       "id": "owo",
-      "name": "oП‰o",
+      "name": "oωo",
       "version": "0.12.15.5-beta.1+1.21",
       "file": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar",
@@ -1563,8 +1563,8 @@
     "neoforge": "21.1.250",
     "news": [
       {
-        "title": "Р‘РµС‚Р° С‚РµСЃС‚ Р»Р°СѓРЅС‡РµСЂР°",
-        "text": "Р’РѕР·РјРѕР¶РЅС‹ РїСЂРѕР±Р»РµРјС‹, РµСЃР»Рё С‚Р°РєРёРµ РїРѕСЏРІРёР»РёСЃСЊ вЂ” РїРёС€РёС‚Рµ РІ [РґРёСЃРєРѕСЂРґ](https://discord.gg/svTjpPHJqq)."
+        "title": "Бета тест лаунчера",
+        "text": "Возможны проблемы, если такие появились — пишите в [дискорд](https://discord.gg/svTjpPHJqq)."
       }
     ],
     "background": {
