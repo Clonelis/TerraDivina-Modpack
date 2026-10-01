@@ -621,7 +621,7 @@
     },
     {
       "id": "owo",
-      "name": "oωo",
+      "name": "oП‰o",
       "version": "0.12.15.5-beta.1+1.21",
       "file": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar",
@@ -830,6 +830,22 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
+    },
+    {
+      "id": "create_avionics",
+      "name": "Create: Avionics",
+      "version": "0.6.0",
+      "file": "create_avionics-neoforge-1.21.1-0.6.0.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/create_avionics-neoforge-1.21.1-0.6.0.jar?sha256=32869cfa71e1339db59bb0edd92f5a8235a524a574ca06d7f26866cb30662d88",
+      "sha256": "32869cfa71e1339db59bb0edd92f5a8235a524a574ca06d7f26866cb30662d88"
+    },
+    {
+      "id": "computercraft",
+      "name": "CC: Tweaked",
+      "version": "1.120.2",
+      "file": "cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/cc-tweaked-1.21.1-forge-1.120.2.jar?sha256=e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f"
     }
   ],
   "configFiles": [
@@ -1547,8 +1563,8 @@
     "neoforge": "21.1.250",
     "news": [
       {
-        "title": "Бета тест лаунчера",
-        "text": "Возможны проблемы, если такие появились — пишите в [дискорд](https://discord.gg/svTjpPHJqq)."
+        "title": "Р‘РµС‚Р° С‚РµСЃС‚ Р»Р°СѓРЅС‡РµСЂР°",
+        "text": "Р’РѕР·РјРѕР¶РЅС‹ РїСЂРѕР±Р»РµРјС‹, РµСЃР»Рё С‚Р°РєРёРµ РїРѕСЏРІРёР»РёСЃСЊ вЂ” РїРёС€РёС‚Рµ РІ [РґРёСЃРєРѕСЂРґ](https://discord.gg/svTjpPHJqq)."
       }
     ],
     "background": {
