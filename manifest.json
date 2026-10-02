@@ -798,8 +798,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/8f894071d9b2b3468cc77c5fca904ea19ce9f897/mods/systd-1488.jar",
-      "sha256": "3d00501f1a50c3833f1d8228c37fd6081f0c81c6bad68d72e13bf5541c4a4a8c"
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar?sha256=ab76795c562f37a9ffb4e8d3c4f651b169bce990894a41c8fa28e8bc61764bbd",
+      "sha256": "ab76795c562f37a9ffb4e8d3c4f651b169bce990894a41c8fa28e8bc61764bbd"
     },
     {
       "id": "tracks",
@@ -849,6 +849,14 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
+    },
+    {
+      "id": "protection_pixel",
+      "name": "Protection Pixel",
+      "version": "2.2.1",
+      "file": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/protection_pixel-2.2.1-neoforge-1.21.1.jar?sha256=a496e6263a0c2cd4341f05a1a71085e467cfe85b453a6aef1c38f614b61129f4",
+      "sha256": "a496e6263a0c2cd4341f05a1a71085e467cfe85b453a6aef1c38f614b61129f4"
     }
   ],
   "configFiles": [
