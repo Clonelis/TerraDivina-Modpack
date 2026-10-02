@@ -1215,6 +1215,12 @@
       "overwrite": true
     },
     {
+      "path": "config/modernfix-mixins.properties",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/modernfix-mixins.properties",
+      "sha256": "30d439cee1b7810db60d9b1e8d720329b21ca455163a5028a3abad3954afe631",
+      "overwrite": true
+    },
+    {
       "path": "config/moonlight-client.toml",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/moonlight-client.toml",
       "sha256": "c5128bab27d781c03de34e7a4f3ce1bf72f4ea117bf8d8a3b6533a4a71918699",
@@ -1578,12 +1584,6 @@
       "path": "servers.dat",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/servers.dat",
       "sha256": "a5bcd9fbe972a8f0f92fa98616d3cb049e024346c42aa5647651cd4b05832a53",
-      "overwrite": true
-    },
-    {
-      "path": "config/modernfix-mixins.properties",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/modernfix-mixins.properties",
-      "sha256": "30d439cee1b7810db60d9b1e8d720329b21ca455163a5028a3abad3954afe631",
       "overwrite": true
     }
   ],
