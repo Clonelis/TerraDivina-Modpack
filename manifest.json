@@ -610,6 +610,16 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/locometal_armor.png"
     },
     {
+      "id": "modernfix",
+      "name": "ModernFix",
+      "version": "5.27.24+mc1.21.1",
+      "file": "modernfix-neoforge-5.27.24+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/4c194982b7e84fbf700c770256b1ffaa1a743968/mods/modernfix-neoforge-5.27.24%2Bmc1.21.1.jar",
+      "sha256": "e6e9446890f0feb3aab3f6e73ae18cb17575c370f232179fef7baa30e61538fe",
+      "pageUrl": "https://modrinth.com/mod/modernfix",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/modernfix.png"
+    },
+    {
       "id": "moonlight",
       "name": "Moonlight Lib",
       "version": "1.21.1-3.3.0",
@@ -808,7 +818,7 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/mods/systd-1488.jar?sha256=bea1293353acdf70cca882fc644d8f4ccd18f04db4877e269fdf3682a4c4ae06",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/4c194982b7e84fbf700c770256b1ffaa1a743968/mods/systd-1488.jar",
       "sha256": "bea1293353acdf70cca882fc644d8f4ccd18f04db4877e269fdf3682a4c4ae06"
     },
     {
@@ -859,15 +869,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
-    },
-    {
-      "id": "modernfix",
-      "name": "ModernFix",
-      "version": "5.27.24+mc1.21.1",
-      "file": "modernfix-neoforge-5.27.24+mc1.21.1.jar",
-      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/5HLHxQ2F/modernfix-neoforge-5.27.24%2Bmc1.21.1.jar",
-      "sha256": "e6e9446890f0feb3aab3f6e73ae18cb17575c370f232179fef7baa30e61538fe",
-      "pageUrl": "https://modrinth.com/mod/modernfix"
     }
   ],
   "configFiles": [
