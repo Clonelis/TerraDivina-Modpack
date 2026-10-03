@@ -121,10 +121,10 @@
     {
       "id": "aerowarptics",
       "name": "AeroWarptics",
-      "version": "1.3.0",
+      "version": "1.3.0+td.1",
       "file": "aerowarptics-1.3.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/aerowarptics-1.3.0.jar",
-      "sha256": "121d1e10fdce23695d9b9c4baebdde3b0feaf42e4847447f5fd78cbb3bf6fa2d",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/2c4497ed6e1f78cf7592106f9e96788c378707e6/mods/aerowarptics-1.3.0.jar",
+      "sha256": "7dc8d0d109276c135c6c4138473f25149a7ac1c1c6905a507607b943fd622494",
       "pageUrl": "https://github.com/ICEconchy/Aerowarptics"
     },
     {
