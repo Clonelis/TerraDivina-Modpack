@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "source" / "tab-logo-soft.png"
 OUTPUT = ROOT / "td-rrs.zip"
 PING_SOURCE = ROOT / "source" / "vanilla-ping"
+HOTBAR_SOURCE = ROOT / "source" / "connected-hotbar"
 PING_COLORS = {
     (0, 255, 33, 255): (222, 190, 123, 255),
     (0, 135, 15, 255): (133, 96, 46, 255),
@@ -51,6 +52,9 @@ with ZipFile(OUTPUT, "w") as archive:
             icon_bytes = io.BytesIO()
             icon.save(icon_bytes, format="PNG", optimize=True)
         add(archive, f"assets/minecraft/textures/gui/sprites/icon/{source.name}", icon_bytes.getvalue())
+    for source in sorted(HOTBAR_SOURCE.glob("*.png")):
+        add(archive, f"assets/minecraft/textures/gui/sprites/hud/{source.name}", source.read_bytes())
+    add(archive, "licenses/connected-dark-hotbar.txt", (HOTBAR_SOURCE / "LICENSE.txt").read_bytes())
 
 content = OUTPUT.read_bytes()
 print(f"{OUTPUT}: {len(content)} bytes")

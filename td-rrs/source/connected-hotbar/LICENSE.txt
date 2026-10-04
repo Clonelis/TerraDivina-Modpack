@@ -1,0 +1,7 @@
+Default Dark Mode texture adaptation: Connected Dark Hotbar for Minecraft 1.21.1.
+Original hotbar, selection and offhand textures by nebulr (Default Dark Mode).
+Source: https://modrinth.com/resourcepack/default-dark-mode
+License: CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/
+Changes by TerraDivina: removed internal slot dividers and unified the dark interior.
+This adaptation is distributed under CC BY-NC-SA 4.0. No endorsement is implied.
+Clean Connected Hotbar was used only as a visual reference; none of its files are included.
