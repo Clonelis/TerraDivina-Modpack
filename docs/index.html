@@ -6,8 +6,262 @@
   <meta name="theme-color" content="#151311">
   <meta name="description" content="TD Modpack — актуальная сборка Create для ручной установки. Моды, конфигурации и ресурс-паки в одном ZIP-архиве.">
   <title>TD — Скачать сборку</title>
-  <link rel="stylesheet" href="./site.css">
-  <script src="./site.js" defer></script>
+  <style>
+:root {
+  color-scheme: dark;
+  --page: #151311;
+  --surface: #1b1714;
+  --text: #ebe4de;
+  --muted: #ab9d93;
+  --muted-dark: #83756b;
+  --accent: #bf835f;
+  --accent-light: #e0ad86;
+  --accent-dark: #986144;
+  --border: rgba(214, 165, 130, .13);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--page);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+a, button { -webkit-tap-highlight-color: transparent; }
+a:focus-visible { outline: 2px solid var(--accent-light); outline-offset: 4px; }
+
+.atmosphere { position: absolute; z-index: 0; inset: 0 0 auto; height: 1040px; overflow: hidden; pointer-events: none; }
+.atmosphere::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .4;
+  background-image: linear-gradient(rgba(178, 115, 74, .043) 1px, transparent 1px), linear-gradient(90deg, rgba(178, 115, 74, .043) 1px, transparent 1px);
+  background-size: 70px 70px;
+  mask-image: linear-gradient(100deg, transparent 17%, black 100%);
+}
+.atmosphere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 30%, var(--page) 95%);
+}
+.soft-light {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(85px);
+  opacity: .28;
+  will-change: transform;
+}
+.soft-light--one {
+  width: 580px;
+  height: 580px;
+  top: 72px;
+  right: -85px;
+  background: radial-gradient(circle, rgba(174, 95, 49, .52), rgba(127, 62, 32, .08) 60%, transparent 75%);
+  animation: slow-drift 17s ease-in-out infinite alternate;
+}
+.soft-light--two {
+  width: 450px;
+  height: 440px;
+  top: 390px;
+  right: 240px;
+  background: radial-gradient(circle, rgba(142, 72, 40, .21), transparent 73%);
+  animation: slow-drift 22s ease-in-out -4s infinite alternate-reverse;
+}
+.orbit-art {
+  position: absolute;
+  width: 830px;
+  height: 830px;
+  top: -22px;
+  right: max(-280px, calc((100vw - 1350px) / 2));
+  opacity: .86;
+  overflow: visible;
+}
+.orbit-spin { transform-origin: 425px 425px; }
+.orbit-spin--slow { animation: orbit 100s linear infinite; }
+.orbit-spin--reverse { animation: orbit 80s linear infinite reverse; }
+.floating-dot { position: absolute; display: block; background: #d7a079; border-radius: 50%; box-shadow: 0 0 18px rgba(224, 150, 92, .35); opacity: .5; animation: dot-breathe 6s ease-in-out infinite alternate; }
+.floating-dot--a { top: 207px; right: 13%; width: 4px; height: 4px; }
+.floating-dot--b { top: 455px; right: 44%; width: 3px; height: 3px; animation-delay: -3s; }
+.floating-dot--c { top: 625px; right: 24%; width: 2px; height: 2px; animation-delay: -1.5s; }
+
+.site-shell { position: relative; z-index: 1; width: min(100% - 64px, 1050px); margin: 0 auto; }
+.header { height: 86px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); }
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-size: 19px; font-weight: 770; letter-spacing: -.6px; }
+.brand-icon { color: #dfa47b; width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid rgba(211, 138, 91, .29); background: rgba(188, 117, 76, .09); border-radius: 6px; }
+.header-note { display: inline-flex; align-items: center; gap: 9px; font-size: 10px; letter-spacing: 2px; font-weight: 720; color: #97857a; }
+.note-dot { display: inline-block; width: 6px; height: 6px; background: #bf835f; border-radius: 50%; box-shadow: 0 0 12px rgba(196, 126, 75, .45); }
+
+.hero { min-height: 645px; padding: 112px 0 100px; position: relative; }
+.eyebrow { display: flex; align-items: center; gap: 10px; color: #c29579; font-size: 11px; font-weight: 730; letter-spacing: 1.8px; }
+.eyebrow-mark { display: inline-block; height: 1px; width: 22px; background: var(--accent); }
+h1 { max-width: 660px; font-size: clamp(47px, 7.2vw, 86px); line-height: 1.065; font-weight: 710; letter-spacing: -.057em; margin: 27px 0 24px; }
+h1 span { color: var(--accent-light); }
+.hero-description { margin: 0; max-width: 495px; font-size: 16px; line-height: 1.8; color: var(--muted); }
+.versions { margin-top: 29px; display: flex; align-items: center; flex-wrap: wrap; gap: 14px; color: #baaa9f; font-size: 12px; font-weight: 630; }
+.versions > span:not(.version-divider) { padding: 8px 11px; border-radius: 5px; background: rgba(40, 31, 25, .70); border: 1px solid var(--border); }
+.version-divider { display: block; height: 4px; width: 4px; border-radius: 50%; background: #6f4a36; }
+.download-area { margin-top: 35px; max-width: 320px; }
+.download-button {
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 17px;
+  min-height: 59px;
+  border-radius: 5px;
+  background: #b67b57; color: #1c130e;
+  text-decoration: none; font-size: 15px; font-weight: 750;
+  box-shadow: inset 0 1px 0 rgba(255, 224, 201, .26), 0 12px 42px rgba(105, 60, 34, .18);
+  transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.download-button:hover { background: #ce9670; box-shadow: 0 13px 46px rgba(120, 63, 34, .23); }
+.download-button:active { transform: translateY(1px); }
+.download-button[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
+.button-arrow { margin-left: auto; }
+.archive-note { margin: 15px 0 0; color: #9b8b80; font-size: 12px; letter-spacing: .05em; }
+.download-status { min-height: 18px; margin: 7px 0 0; color: #75685e; font-size: 12px; line-height: 1.5; }
+
+.guide { border-top: 1px solid var(--border); padding: 55px 0 75px; }
+.section-kicker { display: block; color: #a5795c; font-weight: 750; letter-spacing: 1.7px; font-size: 10px; }
+h2 { margin: 11px 0 30px; font-size: 30px; letter-spacing: -.9px; font-weight: 650; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.steps li { min-height: 185px; border: 1px solid var(--border); border-radius: 6px; padding: 22px 20px; background: rgba(29, 24, 21, .70); }
+.step-number { display: inline-block; color: var(--accent); font-size: 12px; font-weight: 740; letter-spacing: 1px; margin-bottom: 20px; }
+.step-copy h3 { font-size: 16px; font-weight: 670; letter-spacing: -.25px; margin: 0 0 8px; }
+.step-copy p { margin: 0; color: #a89b91; font-size: 13px; line-height: 1.75; }
+.step-copy strong { font-weight: 650; color: #d9c5b5; }
+code { padding: 2px 5px; border-radius: 4px; color: #dfab83; background: #38271e; font-size: .92em; }
+.guide-tip { margin: 20px 0 0; color: var(--muted-dark); font-size: 12px; line-height: 1.7; }
+.footer { border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 15px; min-height: 92px; color: #86756b; font-size: 12px; }
+.footer a { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #b59c8a; }
+.footer a:hover { color: var(--accent-light); }
+.footer-divider { color: #664f42; padding: 0 5px; }
+
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes slow-drift { from { transform: translate(-35px, 20px) scale(.95); } to { transform: translate(25px, -35px) scale(1.08); } }
+@keyframes dot-breathe { from { opacity: .14; transform: translateY(-6px); } to { opacity: .65; transform: translateY(8px); } }
+
+@media (max-width: 860px) {
+  .orbit-art { right: -355px; top: -60px; opacity: .59; }
+  .soft-light--one { right: -260px; }
+  .hero { min-height: 610px; }
+  .hero-description { max-width: 460px; }
+}
+@media (max-width: 620px) {
+  .site-shell { width: min(100% - 40px, 1050px); }
+  .header { height: 72px; }
+  .header-note { font-size: 9px; letter-spacing: 1.2px; }
+  .hero { min-height: unset; padding: 96px 0 92px; }
+  .orbit-art { width: 700px; height: 700px; right: -435px; top: -70px; opacity: .38; }
+  .soft-light { filter: blur(60px); }
+  h1 { font-size: clamp(43px, 10vw, 67px); margin: 26px 0 22px; letter-spacing: -.055em; }
+  .hero-description { font-size: 14px; max-width: 405px; line-height: 1.8; }
+  .eyebrow { font-size: 9px; letter-spacing: 1.5px; }
+  .versions { gap: 8px; }
+  .version-divider { display: none; }
+  .download-area { max-width: 100%; }
+  .guide { padding: 45px 0 65px; }
+  h2 { font-size: 27px; }
+  .steps { grid-template-columns: 1fr; gap: 10px; }
+  .steps li { min-height: 0; display: flex; gap: 17px; padding: 18px; }
+  .step-number { margin: 3px 0 0; flex: 0 0 23px; }
+  .footer { min-height: 77px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+
+/* Standalone page safeguards: no dependency on external CSS or cached assets. */
+html, body { max-width: 100%; overflow-x: clip; }
+.orbit-spin { transform-box: view-box; transform-origin: center center; }
+.orbit-art { animation: ornament-breathe 15s ease-in-out infinite alternate; }
+@keyframes ornament-breathe { from { opacity: .76; } to { opacity: 1; } }
+@media (max-width: 620px) {
+  .site-shell { width: calc(100% - 40px); max-width: 100%; }
+  .header, main, .hero, .guide, .footer { min-width: 0; }
+  .orbit-art { right: -395px; top: -55px; opacity: .72; }
+  .soft-light--one { right: -180px; opacity: .38; }
+  .hero { isolation: isolate; }
+  h1 { max-width: 100%; overflow-wrap: break-word; }
+  .download-button { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .orbit-art { animation: none; }
+}
+
+</style>
+  <script>
+(function () {
+  "use strict";
+
+  var repository = "Clonelis/TerraDivina-Modpack";
+  var archiveName = "TerraDivina-Modpack.zip";
+  var releaseTag = "modpack-download";
+  var download = document.getElementById("download-link");
+  var status = document.getElementById("download-status");
+
+  function showArchiveInformation() {
+    fetch("https://api.github.com/repos/" + repository + "/releases/tags/" + releaseTag, {
+      headers: { Accept: "application/vnd.github+json" },
+      cache: "no-store"
+    }).then(function (response) {
+      if (!response.ok) {
+        if (response.status === 404) {
+          status.textContent = "Архив ещё готовится. Попробуй зайти чуть позже.";
+          download.setAttribute("aria-disabled", "true");
+          download.addEventListener("click", function (event) { event.preventDefault(); });
+          return null;
+        }
+        throw new Error("GitHub API: " + response.status);
+      }
+      return response.json();
+    }).then(function (release) {
+      if (!release) return;
+      var asset = (release.assets || []).find(function (item) { return item.name === archiveName; });
+      if (!asset) {
+        status.textContent = "Архив временно обновляется. Попробуй чуть позже.";
+        return;
+      }
+
+      download.href = asset.browser_download_url;
+      var megabytes = (asset.size / 1024 / 1024).toLocaleString("ru-RU", { maximumFractionDigits: 1 });
+      var updated = new Date(asset.updated_at || asset.created_at);
+      var dateText = Number.isNaN(updated.getTime())
+        ? ""
+        : " · Обновлено " + new Intl.DateTimeFormat("ru-RU", { day: "numeric", month: "long", year: "numeric" }).format(updated);
+      status.textContent = "Размер: " + megabytes + " МБ" + dateText;
+    }).catch(function () {
+      status.textContent = "Актуальный ZIP доступен по кнопке выше.";
+    });
+  }
+
+  function showMinecraftVersions() {
+    fetch("https://raw.githubusercontent.com/" + repository + "/main/manifest.json", { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Manifest unavailable");
+        return response.json();
+      })
+      .then(function (manifest) {
+        if (manifest.pack && manifest.pack.minecraft) {
+          document.getElementById("minecraft-version").textContent = "Minecraft " + manifest.pack.minecraft;
+        }
+        if (manifest.menu && manifest.menu.neoforge) {
+          document.getElementById("neoforge-version").textContent = "NeoForge " + manifest.menu.neoforge;
+        }
+      })
+      .catch(function () {});
+  }
+
+  showArchiveInformation();
+  showMinecraftVersions();
+})();
+
+</script>
 </head>
 <body>
   <div class="atmosphere" aria-hidden="true">
