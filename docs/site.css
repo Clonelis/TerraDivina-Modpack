@@ -1,0 +1,108 @@
+:root {
+  color-scheme: light;
+  --background: #fbf9f6;
+  --surface: #ffffff;
+  --text: #302b28;
+  --muted: #756c65;
+  --faint: #9c9188;
+  --border: #eae1d9;
+  --accent: #d78958;
+  --accent-hover: #c97745;
+  --accent-pale: #faeee5;
+}
+
+* { box-sizing: border-box; }
+
+html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; min-height: 100vh; background: var(--background); color: var(--text); }
+
+a { color: inherit; }
+
+button, a { -webkit-tap-highlight-color: transparent; }
+
+a:focus-visible { outline: 3px solid #dfa475; outline-offset: 4px; }
+
+.site { max-width: 820px; min-height: 100vh; margin: 0 auto; padding: 0 28px; display: flex; flex-direction: column; }
+
+.header { min-height: 82px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); gap: 20px; }
+
+.brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; font-size: 17px; font-weight: 750; letter-spacing: -.5px; }
+
+.brand-symbol { color: var(--accent); flex: none; }
+
+.header-label { font-size: 10px; font-weight: 750; letter-spacing: 1.8px; color: var(--faint); }
+
+main { flex: 1; }
+
+.intro { padding: 78px 0 35px; }
+
+.overline { color: var(--accent-hover); letter-spacing: 2px; font-size: 11px; font-weight: 750; }
+
+h1 { font-size: clamp(36px, 6.8vw, 53px); line-height: 1.14; letter-spacing: -2.2px; font-weight: 740; margin: 17px 0 18px; }
+
+h1 span { color: var(--accent); }
+
+.lead { font-size: 16px; line-height: 1.8; max-width: 610px; color: var(--muted); margin: 0; }
+
+.versions { display: flex; gap: 13px; align-items: center; flex-wrap: wrap; margin-top: 24px; color: #665b53; font-size: 13px; font-weight: 600; }
+
+.version-separator { width: 4px; height: 4px; background: #c2b7ad; border-radius: 50%; }
+
+.download-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 25px; }
+
+.download-link { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 56px; padding: 13px 17px; background: var(--accent); border-radius: 5px; color: #fff; font-size: 15px; font-weight: 720; text-decoration: none; transition: background 140ms ease, transform 140ms ease; }
+
+.download-link:hover { background: var(--accent-hover); }
+
+.download-link:active { transform: translateY(1px); }
+
+.download-link[aria-disabled="true"] { background: #bdafa3; cursor: not-allowed; }
+
+.link-arrow { margin-left: auto; }
+
+.download-description { color: var(--muted); font-size: 13px; margin: 17px 0 0; }
+
+.download-status { color: var(--faint); font-size: 12px; margin: 9px 0 0; }
+
+.guide { padding: 55px 0 55px; }
+
+h2 { font-size: 22px; letter-spacing: -.5px; margin: 0 0 23px; }
+
+.steps { list-style: none; padding: 0; margin: 0; }
+
+.steps li { display: flex; align-items: flex-start; gap: 20px; padding: 18px 0; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; line-height: 1.75; }
+
+.steps li:last-child { border-bottom: 1px solid var(--border); }
+
+.number { color: var(--accent); font-size: 13px; font-weight: 800; flex: 0 0 22px; }
+
+.steps strong { color: var(--text); font-weight: 650; }
+
+code { padding: 2px 5px; background: var(--accent-pale); border-radius: 4px; color: #945933; font-size: .93em; }
+
+.tip { background: #f7f0e9; border-left: 3px solid #e6b18d; padding: 15px 17px; border-radius: 4px; color: #75665b; font-size: 13px; line-height: 1.75; margin-top: 24px; }
+
+.footer { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0 33px; border-top: 1px solid var(--border); color: var(--faint); font-size: 12px; }
+
+.footer a { color: var(--muted); display: inline-flex; gap: 5px; align-items: center; text-decoration: none; }
+
+.footer a:hover { color: var(--accent-hover); }
+
+@media (max-width: 600px) {
+  .site { padding: 0 18px; }
+  .header { min-height: 70px; }
+  .brand { font-size: 16px; }
+  .header-label { font-size: 9px; letter-spacing: 1px; }
+  .intro { padding: 58px 0 29px; }
+  h1 { letter-spacing: -1.5px; }
+  .lead { font-size: 14px; line-height: 1.75; }
+  .download-section { padding: 16px; }
+  .guide { padding: 42px 0; }
+  .steps li { gap: 13px; }
+  .footer { flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .download-link { transition: none; }
+}
