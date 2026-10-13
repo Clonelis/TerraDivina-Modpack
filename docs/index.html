@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf9f6">
+  <meta name="description" content="Официальная сборка TerraDivina | Create для ручной установки на macOS, Linux и Windows.">
+  <title>Скачать сборку · TerraDivina | Create</title>
+  <link rel="stylesheet" href="./site.css">
+  <script src="./site.js" defer></script>
+</head>
+<body>
+  <div class="site">
+    <header class="header">
+      <a class="brand" href="./" aria-label="TerraDivina — главная">
+        <svg class="brand-symbol" width="27" height="27" viewBox="0 0 27 27" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="10" height="10" rx="2" fill="currentColor"/>
+          <rect x="15" y="2" width="10" height="10" rx="2" fill="currentColor" opacity=".42"/>
+          <rect x="2" y="15" width="10" height="10" rx="2" fill="currentColor" opacity=".42"/>
+          <rect x="15" y="15" width="10" height="10" rx="2" fill="currentColor"/>
+        </svg>
+        <span>TerraDivina</span>
+      </a>
+      <span class="header-label">CREATE MODPACK</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <div class="overline">ОФИЦИАЛЬНАЯ СБОРКА</div>
+        <h1 id="title">TerraDivina <span>| Create</span></h1>
+        <p class="lead">Модпак для тех, кто не может воспользоваться нашим лаунчером для Windows. Подходит для ручной установки на macOS, Linux и Windows.</p>
+        <div class="versions">
+          <span id="minecraft-version">Minecraft 1.21.1</span>
+          <span class="version-separator" aria-hidden="true"></span>
+          <span id="neoforge-version">NeoForge 21.1.250</span>
+        </div>
+      </section>
+
+      <section class="download-section" aria-label="Скачать модпак">
+        <a class="download-link" id="download-link" href="https://github.com/Clonelis/TerraDivina-Modpack/releases/download/modpack-download/TerraDivina-Modpack.zip">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/>
+          </svg>
+          <span>Скачать сборку</span>
+          <svg class="link-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14m-6-6 6 6-6 6"/>
+          </svg>
+        </a>
+        <p class="download-description">ZIP-архив: моды, конфигурации и ресурс-паки.</p>
+        <p class="download-status" id="download-status" role="status" aria-live="polite">Актуальная сборка обновляется автоматически через GitHub.</p>
+      </section>
+
+      <section class="guide" aria-labelledby="guide-title">
+        <h2 id="guide-title">Как установить</h2>
+        <ol class="steps">
+          <li><span class="number">01</span><span>Установи <strong>Minecraft Java 1.21.1</strong> и <strong>NeoForge 21.1.250</strong> в своём лаунчере.</span></li>
+          <li><span class="number">02</span><span>Скачай ZIP-архив и открой папку игры для созданного профиля.</span></li>
+          <li><span class="number">03</span><span>Перенеси папки <code>mods</code>, <code>config</code> и <code>resourcepacks</code> из архива в папку игры. Запусти Minecraft.</span></li>
+        </ol>
+        <p class="tip">Рекомендуем отдельный профиль игры, чтобы не затронуть другие моды и настройки. Совместимость отдельных модов с macOS может зависеть от устройства.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>TerraDivina | Create</span>
+      <a href="https://github.com/Clonelis/TerraDivina-Modpack" target="_blank" rel="noopener noreferrer">Репозиторий на GitHub
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
