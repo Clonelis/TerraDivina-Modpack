@@ -3,68 +3,138 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fbf9f6">
-  <meta name="description" content="Официальная сборка TerraDivina | Create для ручной установки на macOS, Linux и Windows.">
-  <title>Скачать сборку · TerraDivina | Create</title>
+  <meta name="theme-color" content="#151311">
+  <meta name="description" content="TD Modpack — актуальная сборка Create для ручной установки. Моды, конфигурации и ресурс-паки в одном ZIP-архиве.">
+  <title>TD — Скачать сборку</title>
   <link rel="stylesheet" href="./site.css">
   <script src="./site.js" defer></script>
 </head>
 <body>
-  <div class="site">
+  <div class="atmosphere" aria-hidden="true">
+    <div class="soft-light soft-light--one"></div>
+    <div class="soft-light soft-light--two"></div>
+    <svg class="orbit-art" viewBox="0 0 850 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="core-glow">
+          <stop offset="0%" stop-color="#C17B51" stop-opacity=".21"/>
+          <stop offset="60%" stop-color="#B9784C" stop-opacity=".055"/>
+          <stop offset="100%" stop-color="#B9784C" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="orbit-stroke" x1="85" y1="150" x2="760" y2="720">
+          <stop stop-color="#D79B71" stop-opacity=".50"/>
+          <stop offset=".5" stop-color="#C17A50" stop-opacity=".14"/>
+          <stop offset="1" stop-color="#E0A77E" stop-opacity=".33"/>
+        </linearGradient>
+      </defs>
+      <circle cx="425" cy="425" r="390" fill="url(#core-glow)"/>
+      <circle cx="425" cy="425" r="347" stroke="#BF845C" stroke-opacity=".09"/>
+      <circle cx="425" cy="425" r="292" stroke="#CF9169" stroke-opacity=".14"/>
+      <circle cx="425" cy="425" r="240" stroke="#E1A97D" stroke-opacity=".10"/>
+      <g class="orbit-spin orbit-spin--slow">
+        <circle cx="425" cy="425" r="347" stroke="url(#orbit-stroke)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="460 1720"/>
+        <circle cx="425" cy="425" r="347" stroke="#C88459" stroke-opacity=".32" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="8 2172"/>
+        <circle cx="425" cy="78" r="3.5" fill="#D49A73"/>
+      </g>
+      <g class="orbit-spin orbit-spin--reverse">
+        <circle cx="425" cy="425" r="292" stroke="#D29A74" stroke-opacity=".30" stroke-width="1.3" stroke-dasharray="290 1545"/>
+        <circle cx="425" cy="425" r="240" stroke="#C78357" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="130 1378"/>
+        <circle cx="133" cy="425" r="2.5" fill="#D99F77" opacity=".8"/>
+      </g>
+      <g opacity=".17" stroke="#E1AC89">
+        <path d="M425 105v21m0 598v21M105 425h21m598 0h21"/>
+        <path d="M201 201l14 14m420 420 14 14M649 201l-14 14M215 635l-14 14"/>
+      </g>
+      <circle cx="425" cy="425" r="120" stroke="#A97554" stroke-opacity=".13"/>
+      <circle cx="425" cy="425" r="86" stroke="#DE9D72" stroke-opacity=".12" stroke-dasharray="2 11"/>
+      <circle cx="425" cy="425" r="4" fill="#E9AB7D" opacity=".45"/>
+    </svg>
+    <span class="floating-dot floating-dot--a"></span>
+    <span class="floating-dot floating-dot--b"></span>
+    <span class="floating-dot floating-dot--c"></span>
+  </div>
+
+  <div class="site-shell">
     <header class="header">
-      <a class="brand" href="./" aria-label="TerraDivina — главная">
-        <svg class="brand-symbol" width="27" height="27" viewBox="0 0 27 27" fill="none" aria-hidden="true">
-          <rect x="2" y="2" width="10" height="10" rx="2" fill="currentColor"/>
-          <rect x="15" y="2" width="10" height="10" rx="2" fill="currentColor" opacity=".42"/>
-          <rect x="2" y="15" width="10" height="10" rx="2" fill="currentColor" opacity=".42"/>
-          <rect x="15" y="15" width="10" height="10" rx="2" fill="currentColor"/>
-        </svg>
-        <span>TerraDivina</span>
+      <a class="brand" href="./" aria-label="TD — главная">
+        <span class="brand-icon" aria-hidden="true">
+          <svg width="25" height="25" viewBox="0 0 26 26" fill="none">
+            <path d="M3.5 6.5h11M9 6.5v13M16 6.5h3.2a6.5 6.5 0 0 1 0 13H16v-13Z" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>TD</span>
       </a>
-      <span class="header-label">CREATE MODPACK</span>
+      <span class="header-note"><span class="note-dot"></span> CREATE MODPACK</span>
     </header>
 
     <main>
-      <section class="intro" aria-labelledby="title">
-        <div class="overline">ОФИЦИАЛЬНАЯ СБОРКА</div>
-        <h1 id="title">TerraDivina <span>| Create</span></h1>
-        <p class="lead">Модпак для тех, кто не может воспользоваться нашим лаунчером для Windows. Подходит для ручной установки на macOS, Linux и Windows.</p>
-        <div class="versions">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow">
+          <span class="eyebrow-mark" aria-hidden="true"></span>
+          СБОРКА ДЛЯ СВОБОДНОЙ ИГРЫ
+        </div>
+
+        <h1 id="page-title">Свобода<br><span>создавать.</span></h1>
+
+        <p class="hero-description">Моды, конфиги и ресурс-паки в одном архиве. Скачай актуальную сборку, установи её вручную и заходи в игру.</p>
+
+        <div class="versions" aria-label="Версии игры и загрузчика">
           <span id="minecraft-version">Minecraft 1.21.1</span>
-          <span class="version-separator" aria-hidden="true"></span>
+          <span class="version-divider" aria-hidden="true"></span>
           <span id="neoforge-version">NeoForge 21.1.250</span>
+        </div>
+
+        <div class="download-area">
+          <a class="download-button" id="download-link" href="https://github.com/Clonelis/TerraDivina-Modpack/releases/download/modpack-download/TerraDivina-Modpack.zip">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/>
+            </svg>
+            <span>Скачать сборку</span>
+            <svg class="button-arrow" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14m-6-6 6 6-6 6"/>
+            </svg>
+          </a>
+          <p class="archive-note">ZIP · mods / config / resourcepacks</p>
+          <p class="download-status" id="download-status" role="status" aria-live="polite">Архив обновляется автоматически.</p>
         </div>
       </section>
 
-      <section class="download-section" aria-label="Скачать модпак">
-        <a class="download-link" id="download-link" href="https://github.com/Clonelis/TerraDivina-Modpack/releases/download/modpack-download/TerraDivina-Modpack.zip">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/>
-          </svg>
-          <span>Скачать сборку</span>
-          <svg class="link-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M5 12h14m-6-6 6 6-6 6"/>
-          </svg>
-        </a>
-        <p class="download-description">ZIP-архив: моды, конфигурации и ресурс-паки.</p>
-        <p class="download-status" id="download-status" role="status" aria-live="polite">Актуальная сборка обновляется автоматически через GitHub.</p>
-      </section>
-
       <section class="guide" aria-labelledby="guide-title">
-        <h2 id="guide-title">Как установить</h2>
+        <div class="section-heading">
+          <span class="section-kicker">ПРОСТО И БЫСТРО</span>
+          <h2 id="guide-title">Установка</h2>
+        </div>
         <ol class="steps">
-          <li><span class="number">01</span><span>Установи <strong>Minecraft Java 1.21.1</strong> и <strong>NeoForge 21.1.250</strong> в своём лаунчере.</span></li>
-          <li><span class="number">02</span><span>Скачай ZIP-архив и открой папку игры для созданного профиля.</span></li>
-          <li><span class="number">03</span><span>Перенеси папки <code>mods</code>, <code>config</code> и <code>resourcepacks</code> из архива в папку игры. Запусти Minecraft.</span></li>
+          <li>
+            <span class="step-number">01</span>
+            <div class="step-copy">
+              <h3>Подготовь игру</h3>
+              <p>Установи Minecraft Java <strong>1.21.1</strong> с <strong>NeoForge 21.1.250</strong>.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div class="step-copy">
+              <h3>Распакуй сборку</h3>
+              <p>Скачай ZIP и перенеси папки <code>mods</code>, <code>config</code> и <code>resourcepacks</code> в папку игры.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div class="step-copy">
+              <h3>Запускай</h3>
+              <p>Выбери подготовленный профиль, запусти игру и подключайся к серверу.</p>
+            </div>
+          </li>
         </ol>
-        <p class="tip">Рекомендуем отдельный профиль игры, чтобы не затронуть другие моды и настройки. Совместимость отдельных модов с macOS может зависеть от устройства.</p>
+        <p class="guide-tip">Лучше использовать отдельный профиль, чтобы файлы сборки не смешивались с другими модами.</p>
       </section>
     </main>
 
     <footer class="footer">
-      <span>TerraDivina | Create</span>
-      <a href="https://github.com/Clonelis/TerraDivina-Modpack" target="_blank" rel="noopener noreferrer">Репозиторий на GitHub
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      <span>TD <span class="footer-divider">/</span> Create</span>
+      <a href="https://github.com/Clonelis/TerraDivina-Modpack" target="_blank" rel="noopener noreferrer">
+        GitHub
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
       </a>
     </footer>
   </div>
