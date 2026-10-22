@@ -668,15 +668,6 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/protection_pixel.png"
     },
     {
-      "id": "ragdoll_reactions",
-      "name": "Ragdoll Reactions",
-      "version": "0.7.0",
-      "file": "ragdoll_reactions-1.21.1-0.7.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/ragdoll_reactions-1.21.1-0.7.0.jar",
-      "sha256": "d61a118c0b5ad2f3e761af6b3d71726bc2887bb3d0c7c90c2dc604bb4d3792b8",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/ragdoll_reactions.png"
-    },
-    {
       "id": "railways",
       "name": "Create: Steam 'n' Rails 1.21.1",
       "version": "0.3.0-beta.2+neoforge-mc1.21.1",
@@ -730,25 +721,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/sable-neoforge-1.21.1-2.0.3.jar",
       "sha256": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable.png"
-    },
-    {
-      "id": "sable_player_ragdoll",
-      "name": "Sable Ragdolls",
-      "version": "0.7.0",
-      "file": "sable_player_ragdoll-1.21.1-0.7.0.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/sable_player_ragdoll-1.21.1-0.7.0.jar",
-      "sha256": "f6455694afa0f0ce2bc72ff2c64b8d3218006a9127e1343bc43c82a312582653",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_player_ragdoll__f6455694afa0.png"
-    },
-    {
-      "id": "sable_player_ragdoll__69611deff1c2",
-      "name": "Sable Ragdolls",
-      "version": "0.7.5",
-      "file": "sable_player_ragdoll-1.21.1-0.7.5.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
-      "sha256": "69611deff1c2b18ae0ae7dbaea24cc14f4b69f0368297653933ae9b33adf2d2b",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_player_ragdoll.png",
-      "modId": "sable_player_ragdoll"
     },
     {
       "id": "sable_xaero_bridge",
@@ -818,8 +790,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/4e8897b04ed17f056ab878f5abab859024798257/mods/systd-1488.jar",
-      "sha256": "3b94a83c34ad8c1ba155add0c7f79d7d6f701db58ba8764360e03246efaeea69"
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/a10f7e401b7942975d5578305281b52165f17775/mods/systd-1488.jar",
+      "sha256": "91c4a7c0f943fe07ec501d3bb105cfc7caf4441d7da3ff335bcf75ccf8287d38"
     },
     {
       "id": "tracks",
@@ -1311,12 +1283,6 @@
       "overwrite": true
     },
     {
-      "path": "config/sable_player_ragdoll-client.toml",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sable_player_ragdoll-client.toml",
-      "sha256": "ba2fc82938fa99ce48435c574cdd542aff177dd79846828c630447fc9ecc860c",
-      "overwrite": true
-    },
-    {
       "path": "config/sable_xaero_bridge-client.toml",
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/sable_xaero_bridge-client.toml",
       "sha256": "67f89e0e3f469a75eaa984e818a0356e687ca5d2cdb0891a8677f517fbff9125",
@@ -1354,8 +1320,8 @@
     },
     {
       "path": "config/submarine_hull.json",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/submarine_hull.json",
-      "sha256": "26399ecc8d4ba106dd3dce1c9acb06c334e0f3bb9103a59866bb60d76f10f8ed",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/a10f7e401b7942975d5578305281b52165f17775/config/submarine_hull.json",
+      "sha256": "d797f589d8f8d7b56d9bfd883938a7ad1b71c1856576ca0557c5563f4e044d75",
       "overwrite": true
     },
     {
