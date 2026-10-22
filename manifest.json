@@ -1320,7 +1320,7 @@
     },
     {
       "path": "config/submarine_hull.json",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/a10f7e401b7942975d5578305281b52165f17775/config/submarine_hull.json",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/config/submarine_hull.json",
       "sha256": "d797f589d8f8d7b56d9bfd883938a7ad1b71c1856576ca0557c5563f4e044d75",
       "overwrite": true
     },
