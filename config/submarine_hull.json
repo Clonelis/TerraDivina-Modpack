@@ -23269,18 +23269,6 @@
     "maxWaterDepth": 161,
     "implosionChance": 0.05
   },
-  "sable_player_ragdoll:mob_ragdoll_part": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "sable_player_ragdoll:ragdoll_part": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "sable_player_ragdoll:ragdoll_seat": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
   "selling_bin:selling_bin": {
     "maxWaterDepth": 24,
     "implosionChance": 0.85
