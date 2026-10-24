@@ -790,8 +790,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/64796abd6400257fd5c1d548b94ea6f587bbbe2f/mods/systd-1488.jar",
-      "sha256": "8fc66ce2618f8f22cdea5cac756cf39f53c562af94322bef6b77d23c3c20de8e"
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/71da73cc21d757a11db37a48af8d654aad4d9cc5/mods/systd-1488.jar",
+      "sha256": "587a62306e79d79226ea8838483b5691f7e94ecef9977ae1860494841fc75995"
     },
     {
       "id": "tracks",
@@ -1569,9 +1569,10 @@
     }
   },
   "launcher": {
-    "minimumVersion": "1.3.7",
-    "latestVersion": "1.3.7",
+    "minimumVersion": "1.3.9",
+    "latestVersion": "1.3.9",
     "blockedVersions": [],
-    "removeBlocked": true
+    "removeBlocked": false,
+    "downloadUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/launcher-v1.3.9/td.exe"
   }
 }
