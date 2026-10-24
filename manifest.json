@@ -1569,12 +1569,12 @@
     }
   },
   "launcher": {
-    "minimumVersion": "1.3.11",
-    "latestVersion": "1.3.11",
+    "minimumVersion": "1.3.12",
+    "latestVersion": "1.3.12",
     "blockedVersions": [],
     "removeBlocked": false,
-    "downloadUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/launcher-v1.3.11/td.exe",
-    "sha256": "8f65b9765188ebe8ba562a930485e467164d5cfb71f20e4121131f4ee849820a",
-    "size": 85411097
+    "downloadUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/launcher-v1.3.12/td.exe",
+    "sha256": "a12944905f136e036d041944adae31a5cececebd30032e88d6dbccb578884df1",
+    "size": 85731655
   }
 }
