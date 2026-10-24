@@ -8,10 +8,11 @@ const branch = 'main';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const configRoot = path.join(root, 'config');
 const resourcepacksRoot = path.join(root, 'resourcepacks');
+const shaderpacksRoot = path.join(root, 'shaderpacks');
 const manifestPath = path.join(root, 'manifest.json');
 
 async function collect(directory) {
-  const entries = await readdir(directory, { withFileTypes: true });
+  const entries = await readdir(directory, { withFileTypes: true }).catch(error => { if (error.code === 'ENOENT') return []; throw error; });
   const files = [];
   for (const entry of entries) {
     const target = path.join(directory, entry.name);
@@ -35,7 +36,7 @@ try {
   if (error.code !== 'ENOENT') throw error;
 }
 const previous = new Map((manifest.configFiles || []).map(file => [file.path, file]));
-const files = [...await collect(configRoot), ...await collect(resourcepacksRoot)];
+const files = [...await collect(configRoot), ...await collect(resourcepacksRoot), ...await collect(shaderpacksRoot)];
 const optionsPath = path.join(root, 'options.txt');
 try {
   await access(optionsPath);
@@ -50,10 +51,13 @@ manifest.configFiles = await Promise.all(files.sort().map(async file => {
   const relative = path.relative(root, file).replaceAll('\\', '/');
   const encoded = relative.split('/').map(encodeURIComponent).join('/');
   const contents = await readFile(file);
+  const sha256 = createHash('sha256').update(contents).digest('hex');
+  const old = previous.get(relative);
+  const revision = process.env.GITHUB_SHA || branch;
   return {
     path: relative,
-    url: `https://raw.githubusercontent.com/${repository}/${branch}/${encoded}`,
-    sha256: createHash('sha256').update(contents).digest('hex'),
+    url: old?.sha256 === sha256 ? old.url : `https://raw.githubusercontent.com/${repository}/${revision}/${encoded}`,
+    sha256,
     overwrite: previous.get(relative)?.overwrite !== false
   };
 }));
