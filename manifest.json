@@ -659,6 +659,15 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/owo.png"
     },
     {
+      "id": "playeremotes",
+      "name": "PlayerEmotes",
+      "version": "2.0.1",
+      "file": "playeremotes-neoforge-2.0.1+1.21.1.jar",
+      "sha256": "28779ebe37c2ca13c682087663d43a820e32c38a7d02252105178311a6dd1801",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/playeremotes-neoforge-2.0.1%2B1.21.1.jar",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/playeremotes.png"
+    },
+    {
       "id": "protection_pixel",
       "name": "Protection Pixel",
       "version": "2.2.1",
@@ -733,6 +742,14 @@
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/sable_xaero_bridge.png"
     },
     {
+      "id": "sandshark",
+      "name": "Sand Shark",
+      "version": "1.0.0",
+      "file": "sandshark-neoforge-1.0.1.jar",
+      "sha256": "444ddc7e56b158e2724759c2eb22d0ba6c05fe5d702e9d7b58f44283d148e690",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/sandshark-neoforge-1.0.1.jar"
+    },
+    {
       "id": "sodium",
       "name": "Sodium",
       "version": "0.8.13-beta.1+mc1.21.1",
@@ -785,6 +802,26 @@
       "sha256": "4a46d43285574f9a28cc1e8c243665c13135e5da7c22c04cbd2be5a01d34a1ac",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/supermartijn642corelib.png",
       "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib"
+    },
+    {
+      "id": "supplementaries",
+      "name": "Supplementaries",
+      "version": "1.21.1-4.0.2",
+      "file": "supplementaries-1.21.1-4.0.2-neoforge.jar",
+      "sha256": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/supplementaries-1.21.1-4.0.2-neoforge.jar",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/supplementaries.png"
+    },
+    {
+      "id": "suppsquared",
+      "name": "Supplementaries Squared",
+      "version": "1.21-1.2.18",
+      "file": "suppsquared-neoforge-1.21-1.2.18.jar",
+      "sha256": "df0757828d562557e69bf00cdd43532193e292069303b8c1f47216d759c31e0c",
+      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/suppsquared",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/suppsquared-neoforge-1.21-1.2.18.jar",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/suppsquared.png"
     },
     {
       "id": "systd",
@@ -842,40 +879,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
-    },
-    {
-      "id": "suppsquared",
-      "name": "Supplementaries Squared",
-      "version": "1.21-1.2.18",
-      "file": "suppsquared-neoforge-1.21-1.2.18.jar",
-      "sha256": "df0757828d562557e69bf00cdd43532193e292069303b8c1f47216d759c31e0c",
-      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/suppsquared",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/suppsquared-neoforge-1.21-1.2.18.jar"
-    },
-    {
-      "id": "supplementaries",
-      "name": "Supplementaries",
-      "version": "1.21.1-4.0.2",
-      "file": "supplementaries-1.21.1-4.0.2-neoforge.jar",
-      "sha256": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
-      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/supplementaries-1.21.1-4.0.2-neoforge.jar"
-    },
-    {
-      "id": "sandshark",
-      "name": "Sand Shark",
-      "version": "1.0.0",
-      "file": "sandshark-neoforge-1.0.1.jar",
-      "sha256": "444ddc7e56b158e2724759c2eb22d0ba6c05fe5d702e9d7b58f44283d148e690",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/sandshark-neoforge-1.0.1.jar"
-    },
-    {
-      "id": "playeremotes",
-      "name": "PlayerEmotes",
-      "version": "2.0.1",
-      "file": "playeremotes-neoforge-2.0.1+1.21.1.jar",
-      "sha256": "28779ebe37c2ca13c682087663d43a820e32c38a7d02252105178311a6dd1801",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/f25c20f0dbb9c323d68e353906df85c823ad79df/mods/playeremotes-neoforge-2.0.1%2B1.21.1.jar"
     }
   ],
   "configFiles": [
