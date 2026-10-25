@@ -72,6 +72,16 @@
       "pageUrl": "https://github.com/vectorwing/FarmersDelight"
     },
     {
+      "id": "immediatelyfast",
+      "name": "ImmediatelyFast",
+      "version": "1.6.15+1.21.1",
+      "file": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
+      "pageUrl": "https://modrinth.com/mod/immediatelyfast",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/immediatelyfast.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/d11dab9e0895b1a947bcd9d13a43221eb96d108c/mods/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar"
+    },
+    {
       "id": "mousetweaks",
       "name": "Mouse Tweaks",
       "version": "2.26.1",
@@ -135,6 +145,16 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/aeroworks-1.5.0.jar",
       "sha256": "7e9745569a75eb613a9f75c9308aa2c806d3f0fab3a272d98647a13d3fa41641",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/aeroworks.png"
+    },
+    {
+      "id": "alltheleaks",
+      "name": "All The Leaks",
+      "version": "1.1.13+1.21.1-neoforge",
+      "file": "alltheleaks-1.1.13+1.21.1-neoforge.jar",
+      "sha256": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/alltheleaks.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/d11dab9e0895b1a947bcd9d13a43221eb96d108c/mods/alltheleaks-1.1.13%2B1.21.1-neoforge.jar"
     },
     {
       "id": "architectury",
@@ -898,26 +918,6 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
-    },
-    {
-      "id": "immediatelyfast",
-      "name": "ImmediatelyFast",
-      "version": "1.6.15+1.21.1",
-      "file": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
-      "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
-      "pageUrl": "https://modrinth.com/mod/immediatelyfast",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/immediatelyfast.png",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/d11dab9e0895b1a947bcd9d13a43221eb96d108c/mods/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar"
-    },
-    {
-      "id": "alltheleaks",
-      "name": "All The Leaks",
-      "version": "1.1.13+1.21.1-neoforge",
-      "file": "alltheleaks-1.1.13+1.21.1-neoforge.jar",
-      "sha256": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
-      "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks",
-      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/alltheleaks.png",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/d11dab9e0895b1a947bcd9d13a43221eb96d108c/mods/alltheleaks-1.1.13%2B1.21.1-neoforge.jar"
     }
   ],
   "configFiles": [
