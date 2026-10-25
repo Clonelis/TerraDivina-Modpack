@@ -828,8 +828,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "sha256": "73ae4581395c799bc205efaae4eb85f566d58a483ccc488a7768e5bdf15aa06b",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/c170ec7f719552633fe36154d63f1182c3ee679c/mods/systd-1488.jar"
+      "sha256": "dd4381c0a6cb5b93fd2483d2d1e0be3d48e78125c457fbb988210822af448fb4",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/c26d633f85ba7c41756cd11aa8985d3b6620e725/mods/systd-1488.jar"
     },
     {
       "id": "tracks",
@@ -879,6 +879,25 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
+    },
+    {
+      "id": "syrup_library",
+      "name": "Syrup Library",
+      "version": "0.5.1",
+      "file": "syrup_library-0.5.1+1.21.1-neoforge.jar",
+      "sha256": "a27f1e6a20db74e0254273e02c3d588677a0d9b7e6e8b9294db83bf13f4c0c9c",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/syrup_library.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/c26d633f85ba7c41756cd11aa8985d3b6620e725/mods/syrup_library-0.5.1%2B1.21.1-neoforge.jar"
+    },
+    {
+      "id": "plushie_friends",
+      "name": "Plushie Friends",
+      "version": "1.0.3",
+      "file": "plushie_friends-1.0.3+1.21.1-neoforge.jar",
+      "sha256": "a91f058bd650e20068061ab88d8761c4d38450e82e86c517ad954ff35810a717",
+      "pageUrl": "https://repodocs.net/en/project/plushie-friends/latest/docs/",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/plushie_friends.png",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/c26d633f85ba7c41756cd11aa8985d3b6620e725/mods/plushie_friends-1.0.3%2B1.21.1-neoforge.jar"
     }
   ],
   "configFiles": [
