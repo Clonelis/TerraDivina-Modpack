@@ -683,8 +683,8 @@
       "name": "PlayerEmotes",
       "version": "2.0.1",
       "file": "playeremotes-neoforge-2.0.1+1.21.1.jar",
-      "sha256": "12e7c81bcc34757aad6885db32ec21251e768054c7cad0bd28812588a7cb0d41",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/9d260fc9bf2bfa6b64f861a2caa4405bc7986ded/mods/playeremotes-neoforge-2.0.1%2B1.21.1.jar",
+      "sha256": "263d040fe283ca9e9767072378ea02b29f1d3d68597003358bf76ee43994062c",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/0415236732c6ea8751e1dbc144731ac478cfc585/mods/playeremotes-neoforge-2.0.1%2B1.21.1.jar",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/playeremotes.png"
     },
     {
@@ -867,8 +867,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "sha256": "990df4a15e0f3801c8ac848d689fa6acc71afa220d7116de0d1951b83c7024e4",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/d11dab9e0895b1a947bcd9d13a43221eb96d108c/mods/systd-1488.jar"
+      "sha256": "b60aaf8a35ae3b4eb9b31905270e7004a0db5e4ba38cff1cfaefb3b60a883791",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/0415236732c6ea8751e1dbc144731ac478cfc585/mods/systd-1488.jar"
     },
     {
       "id": "tracks",
@@ -1583,9 +1583,9 @@
     },
     {
       "path": "options.txt",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/options.txt",
-      "sha256": "22aa52cf58f4f997d0ffb87fa6cd53ff78dc916fc222986011aa70a9b8491480",
-      "overwrite": true
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/0415236732c6ea8751e1dbc144731ac478cfc585/options.txt",
+      "sha256": "8a55c69a811c3064f1e28e36bd5d401f5c7e0ae6e8d0dc43df34dd2e2387d26b",
+      "overwrite": false
     },
     {
       "path": "resourcepacks/Default-Dark-Mode-1.20.2+-2025.5.0.zip",
