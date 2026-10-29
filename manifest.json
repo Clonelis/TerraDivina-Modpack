@@ -1689,7 +1689,7 @@
     "axiom": {
       "name": "Axiom для администрации",
       "administratorOnly": true,
-      "archiveUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/untagged-3f7fa16d24bf5fb5733b/Axiom-admin-20261029.zip",
+      "archiveUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/optional-admin-tools-20261029/Axiom-admin-20261029.zip",
       "sha256": "d00086032a8a7e9ceab08ebf5f9175cb9d6d0e908fc62f880b6bf1bd3a267d6c",
       "requiresCurrentPack": true
     }
