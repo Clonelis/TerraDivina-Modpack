@@ -949,6 +949,15 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/59cd3ef931d2dfbbee7f8d3bfaefc908eb0778a9/mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
       "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa",
       "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/icons/xaeroworldmap.png"
+    },
+    {
+      "id": "tsundere_everything",
+      "name": "Цундэрэкрафт",
+      "version": "1.1.1",
+      "file": "tsunderecraft.jar",
+      "sha256": "9a00ffc52c1d25f0edb9e8095751a50a6d9b223eebc55603d31abc4faabe76d7",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/63f2aada12b1498680f82c5104a043abbf3d7138/mods/tsunderecraft.jar",
+      "iconUrl": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/63f2aada12b1498680f82c5104a043abbf3d7138/icons/tsundere_everything.png"
     }
   ],
   "configFiles": [
