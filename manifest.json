@@ -295,6 +295,15 @@
       "pageUrl": "https://www.curseforge.com/minecraft/mc-mods/create"
     },
     {
+      "id": "createdeco",
+      "name": "Create Deco",
+      "version": "2.1.3",
+      "file": "createdeco-2.1.3.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/e4278f71d788c1a7da41d2dd9c5aea8b5ad75645/mods/createdeco-2.1.3.jar",
+      "sha256": "2705dddf193ecf8c9c105ff70dfd58367c5f938f7f58bd4184eff9f635664e80",
+      "iconUrl": "https://cdn.modrinth.com/data/sMvUb4Rb/b60e1330b10bd1d7b1f2c0b7337a25f73b0eb555_96.webp"
+    },
+    {
       "id": "aeronautics_bundled",
       "name": "Create Aeronautics",
       "version": "1.3.0",
