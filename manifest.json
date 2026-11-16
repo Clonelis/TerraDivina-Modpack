@@ -897,8 +897,8 @@
       "name": "systd",
       "version": "1488",
       "file": "systd-1488.jar",
-      "sha256": "bed8ae6e1703e4207db7de1477f3ea6a2953178bec58c0ccd8d6da3dafdfaed5",
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/47179c0e26f831c922ba38524cb966ddae2125c8/mods/systd-1488.jar"
+      "sha256": "c4348477004c24c5e2824c4b15710cb4a90f779056ac64c747bda7f9b726d3a2",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/6cc448a07c3aa165bff3ac6fe1989e0932863a21/mods/systd-1488.jar"
     },
     {
       "id": "tracks",
@@ -1668,31 +1668,35 @@
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/servers.dat",
       "sha256": "a5bcd9fbe972a8f0f92fa98616d3cb049e024346c42aa5647651cd4b05832a53",
       "overwrite": true
+    },
+    {
+      "path": "config/terradivina/TerraDivina-Startup.jar",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/6cc448a07c3aa165bff3ac6fe1989e0932863a21/config/terradivina/TerraDivina-Startup.jar",
+      "sha256": "a839e9c4f1128a69d78dc0e329dc04dbdfc2ff079955c71b3731209c69a9d143",
+      "overwrite": true
     }
   ],
   "menu": {
     "minecraft": "1.21.1",
     "neoforge": "21.1.250",
-    "news": [
-      {
-        "title": "Бета тест лаунчера",
-        "text": "Возможны проблемы, если такие появились — пишите в [дискорд](https://discord.gg/svTjpPHJqq)."
-      }
-    ],
     "background": {
       "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/main/assets/menu-background.png",
       "sha256": "d09498c1212655a3acd6e8a598bd959c8ba8bd1188b3510ea9bd7cf7e4db55d7",
       "blur": 3
+    },
+    "statistics": {
+      "url": "https://185.9.145.92:22032/v1/public/leaderboard",
+      "tlsSha256": "396df07e5143e221ca80fb63a5d0306bbbb2202b326511081330a4f51815391c"
     }
   },
   "launcher": {
-    "minimumVersion": "1.3.12",
-    "latestVersion": "1.3.12",
+    "minimumVersion": "1.3.14",
+    "latestVersion": "1.3.14",
     "blockedVersions": [],
     "removeBlocked": false,
-    "downloadUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/launcher-v1.3.12/td.exe",
-    "sha256": "a12944905f136e036d041944adae31a5cececebd30032e88d6dbccb578884df1",
-    "size": 85731655
+    "downloadUrl": "https://github.com/Clonelis/TerraDivina-Modpack/releases/download/launcher-v1.3.14/td.exe",
+    "sha256": "579c0b8ae841a3323b69e26ed637d2fb093bd1acc8de15fb5db5b8183efcbeab",
+    "size": 85730426
   },
   "optionalTools": {
     "axiom": {
@@ -1702,5 +1706,10 @@
       "sha256": "d00086032a8a7e9ceab08ebf5f9175cb9d6d0e908fc62f880b6bf1bd3a267d6c",
       "requiresCurrentPack": true
     }
+  },
+  "startup": {
+    "path": "config/terradivina/TerraDivina-Startup.jar",
+    "loader": "neoforge",
+    "loaderVersion": "21.1.250"
   }
 }
