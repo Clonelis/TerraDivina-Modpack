@@ -1680,8 +1680,8 @@
     "minecraft": "1.21.1",
     "neoforge": "21.1.250",
     "background": {
-      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/c175940e75ce5621c9152511de9999b101db557b/assets/menu-background.png",
-      "sha256": "b57587aa13bb6a443bbcb5a26be360582a30d8b623deda00345b791a86155172",
+      "url": "https://raw.githubusercontent.com/Clonelis/TerraDivina-Modpack/491b19078d469002e99240609f13e96b744e3a70/assets/menu-background.png",
+      "sha256": "786a5695562e84dc8f2ef545f3a1dbfe6e6223ef0dc2cf8e37f92a8c267d8fa9",
       "blur": 3
     },
     "statistics": {
